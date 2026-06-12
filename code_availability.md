@@ -1,12 +1,14 @@
 # Code Availability
 
-Analysis code and derived manuscript materials are available at the GitHub repository:
-**https://github.com/gblakepierpoint/openneuro-tbi-eeg-biomarker-reanalysis**
+Analysis code and derived manuscript materials are available at:
+**https://github.com/blakepi/openneuro-tbi-eeg-biomarker-reanalysis**.
 
-The submitted version corresponds to commit **a995ac0** (full hash
-`a995ac0edddf83fb2a381e253dc6e17f7053f230`), which contains the complete analysis pipeline, frozen
-cross-validation folds, derived outputs, figures, and the manuscript package. Subsequent commits add
-repository/availability metadata only.
+The verified public repository head before journal-specific formatting was commit **953a06a** (full
+hash `953a06aae8803c447ec29ac37bedbf8fbfb54856`). The submitted scientific analysis package
+corresponds to commit **a995ac0** (full hash `a995ac0edddf83fb2a381e253dc6e17f7053f230`), which
+contains the complete analysis pipeline, frozen cross-validation folds, derived outputs, figures,
+and manuscript package. Later commits update repository metadata and journal-specific formatting
+only; they do not change analyses or results.
 
 - **License:** MIT (code). Manuscript text and figures remain Copyright (c) 2026 Gregory Blake
   Pierpoint unless separately licensed.
@@ -16,8 +18,4 @@ repository/availability metadata only.
 - **Locked analysis plan:** included (`reports/final_locked_analysis_plan.md`), version-controlled so
   its pre-modeling status is verifiable in the commit history.
 
-> Note on publication status: at the time of writing, the local repository and commit above were
-> created in the project working directory. Pushing to the public GitHub URL requires the author's
-> authenticated GitHub account (`gh auth login` or an authenticated `git push`); see
-> `manuscript_submission/submission_readiness_audit.md` for the exact publish commands. Verify the
-> repository is public and the commit is present before citing this statement in a submission.
+Zenodo DOI not yet created. Optional before submission.

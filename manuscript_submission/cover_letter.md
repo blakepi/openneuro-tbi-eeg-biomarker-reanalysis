@@ -10,7 +10,7 @@ The manuscript also reports a planned replication feasibility audit across relat
 
 We believe the paper will interest readers concerned with clinical neurophysiology, traumatic brain injury prognosis, reproducible biomarker research, and leakage-safe machine learning. Its contribution is not a positive biomarker claim, but a transparent demonstration of how careful design, locked analyses, identity resolution, and honest replication feasibility assessment can prevent overinterpretation in small public EEG datasets.
 
-The data are publicly available through OpenNeuro. The analysis code, derived tables, locked analysis plan, and manuscript source are available at the project's GitHub repository (https://github.com/gblakepierpoint/openneuro-tbi-eeg-biomarker-reanalysis) under the MIT License; raw EEG is not redistributed. No new human participant data were collected for this secondary analysis, which used publicly available, deidentified data and was considered exempt from institutional review board review.
+The data are publicly available through OpenNeuro. The analysis code, derived tables, locked analysis plan, and manuscript source are available at the project's GitHub repository (https://github.com/blakepi/openneuro-tbi-eeg-biomarker-reanalysis) under the MIT License; raw EEG is not redistributed. No new human participant data were collected for this secondary analysis, which used publicly available, deidentified data and was considered exempt from institutional review board review.
 
 This is a single-author manuscript. It is not under consideration elsewhere, has not been published previously, and the author has approved the submission. No funding was received for this work, and the author declares no conflicts of interest.
 

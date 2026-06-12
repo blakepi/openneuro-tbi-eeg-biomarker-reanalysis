@@ -50,5 +50,5 @@ Single-author manuscript.
 
 ## Data and code availability
 Public OpenNeuro datasets (ds003522, ds005114, ds003523, ds003490); analysis code at
-https://github.com/gblakepierpoint/openneuro-tbi-eeg-biomarker-reanalysis (MIT License). Raw EEG is
+https://github.com/blakepi/openneuro-tbi-eeg-biomarker-reanalysis (MIT License). Raw EEG is
 not redistributed.

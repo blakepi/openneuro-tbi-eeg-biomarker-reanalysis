@@ -128,13 +128,20 @@ interpretations, and manuscript content. AI tools are not authors.
 Please cite the manuscript and the underlying OpenNeuro datasets (see `CITATION.cff` and
 `manuscript_submission/references.bib`).
 
-## 12. License
+## 12. Code archive status
+
+Public repository: https://github.com/blakepi/openneuro-tbi-eeg-biomarker-reanalysis.
+
+Verified public head before journal-specific formatting: `953a06aae8803c447ec29ac37bedbf8fbfb54856`.
+Zenodo DOI not yet created. Optional before submission.
+
+## 13. License
 
 Code is released under the MIT License (`LICENSE`). Manuscript text and figures remain Copyright (c)
 2026 Gregory Blake Pierpoint unless separately licensed. Original OpenNeuro data remain under their
 respective OpenNeuro/CC0 terms and are not redistributed here.
 
-## 13. Contact
+## 14. Contact
 
 **Gregory Blake Pierpoint**
 Macon and Joan Brock Virginia Health Sciences, Eastern Virginia Medical School at Old Dominion

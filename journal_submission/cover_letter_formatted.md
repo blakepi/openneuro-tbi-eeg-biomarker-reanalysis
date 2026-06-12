@@ -1,0 +1,25 @@
+# Cover Letter
+
+Dear Editors,
+
+Please consider the manuscript, "Leakage-Safe EEG Biomarker Analysis After Mild Traumatic Brain Injury: A Preregistered OpenNeuro Reanalysis and Replication Feasibility Study," for Clinical Neurophysiology Practice as a full-length original article / methodological report.
+
+The manuscript reports a rigorous negative and methodological reanalysis of EEG-based prognostic modeling after mild traumatic brain injury. Using the public OpenNeuro ds003522 dataset, the analysis evaluated whether Session-1 resting-state and auditory-oddball EEG features predicted later Neurobehavioral Symptom Inventory burden. Subject identity handling, feature definitions, cross-validation folds, preprocessing rules, and the statistical hierarchy were locked before outcome modeling. The study found no stable evidence that the tested EEG feature panel predicted persistent post-concussive symptom burden in this small cohort.
+
+The manuscript also reports a planned replication-feasibility audit across related public OpenNeuro datasets. The designated replication dataset, ds005114, contained DPX task recordings rather than resting-state or auditory-oddball EEG, so none of the locked EEG features could be extracted with their preregistered definitions. Related datasets likewise did not match both the EEG paradigm/state and clinical outcome structure required for feature-identical replication.
+
+This submission should be of interest to readers concerned with clinical neurophysiology, traumatic brain injury prognosis, reproducible biomarker research, and leakage-safe machine learning. The contribution is not a positive biomarker claim, but a transparent example of how locked analyses, identity resolution, and explicit replication-feasibility assessment can prevent overinterpretation in small public EEG datasets.
+
+The data are publicly available through OpenNeuro. Analysis code and derived manuscript materials are available at https://github.com/blakepi/openneuro-tbi-eeg-biomarker-reanalysis. Raw EEG data are not redistributed. No new human participant data were collected for this secondary analysis, which used publicly available, deidentified data and was considered exempt from institutional review board review.
+
+This is a single-author manuscript. It is not under consideration elsewhere, has not been published previously, and the author has approved the submission. No funding was received for this work, and the author declares no conflicts of interest.
+
+Sincerely,
+
+Gregory Blake Pierpoint
+
+Macon and Joan Brock Virginia Health Sciences, Eastern Virginia Medical School at Old Dominion University, Norfolk, Virginia, USA
+
+Email: pierpogb@odu.edu
+
+ORCID: https://orcid.org/0000-0001-8288-8549

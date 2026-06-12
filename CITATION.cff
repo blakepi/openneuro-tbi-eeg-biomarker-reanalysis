@@ -8,7 +8,7 @@ authors:
     orcid: "https://orcid.org/0000-0001-8288-8549"
     email: "pierpogb@odu.edu"
     affiliation: "Macon and Joan Brock Virginia Health Sciences, Eastern Virginia Medical School at Old Dominion University"
-repository-code: "https://github.com/gblakepierpoint/openneuro-tbi-eeg-biomarker-reanalysis"
+repository-code: "https://github.com/blakepi/openneuro-tbi-eeg-biomarker-reanalysis"
 version: "1.0.0-submission"
 date-released: "2026-06-12"
 license: MIT
