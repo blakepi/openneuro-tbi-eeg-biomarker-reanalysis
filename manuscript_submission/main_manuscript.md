@@ -378,8 +378,9 @@ crosswalk, feature matrices, model outputs) are provided in the Supplement and t
 Analysis code and derived manuscript materials (download, identity resolution, preprocessing,
 feature extraction, frozen cross-validation folds, models, and figures) are available at the GitHub
 repository: https://github.com/gblakepierpoint/openneuro-tbi-eeg-biomarker-reanalysis. The submitted
-version corresponds to commit COMMIT_HASH_PENDING (to be replaced with the exact commit at
-submission). The repository is released under the MIT License; the locked analysis plan is included.
+version corresponds to commit a995ac0
+(a995ac0edddf83fb2a381e253dc6e17f7053f230). The repository is released under the MIT License; the
+locked analysis plan is included.
 Environment: Python 3.14; MNE 1.12; MNE-BIDS; specparam 2.0; scikit-learn 1.9; statsmodels 0.14;
 xgboost 3.2.
 
