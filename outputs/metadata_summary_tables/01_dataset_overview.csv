@@ -1,0 +1,4 @@
+dataset,description,n_subjects_participants_tsv,n_subjects_with_eeg,sessions,n_sessions,tasks,groups,eeg_file_formats
+ds003522,Three-Stim Auditory Oddball + Rest (acute & chronic TBI) [PRIMARY],96,96,"ses-01, ses-02, ses-03",3,ThreeStimAuditoryOddball,"mTBI=44, Control=27, Chronic TBI=25",".tsv(600), .json(600), .fdt(200), .set(200)"
+ds005114,DPX cognitive-control task (acute mild TBI),91,91,"ses-01, ses-02, ses-03",3,DPX,"mTBI=57, Control=34",".tsv(669), .json(669), .fdt(223), .set(223)"
+ds003523,Visual Working Memory (acute TBI),91,91,"ses-01, ses-02, ses-03",3,VisualWorkingMemory,"mTBI=57, Control=34",".tsv(663), .json(663), .fdt(221), .set(221)"

@@ -1,0 +1,4 @@
+dataset,n_subjects_with_eeg,n_ses-01,n_ses-02,n_ses-03,subjects_with_1_session(s),subjects_with_2_session(s),subjects_with_3_session(s)
+ds003522,96,96,59,45,37,14,45
+ds005114,91,91,75,57,16,18,57
+ds003523,91,91,74,56,17,18,56

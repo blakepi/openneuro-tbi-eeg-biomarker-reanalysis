@@ -1,0 +1,46 @@
+{
+  "random_seed": 42,
+  "n_splits": 5,
+  "split_unit": "subject_uid (URSI)",
+  "cohorts": {
+    "A_ds003522": {
+      "n_subjects": 25,
+      "n_splits": 5,
+      "seed": 42,
+      "stratified": true,
+      "strategy": "StratifiedKFold on 3-quantile bins of S3 NSI total",
+      "bin_counts": {
+        "0": 9,
+        "1": 8,
+        "2": 8
+      },
+      "loso_recommended": true
+    },
+    "B_ds005114": {
+      "n_subjects": 34,
+      "n_splits": 5,
+      "seed": 42,
+      "stratified": true,
+      "strategy": "StratifiedKFold on 3-quantile bins of S3 NSI total",
+      "bin_counts": {
+        "0": 12,
+        "1": 11,
+        "2": 11
+      },
+      "loso_recommended": true
+    },
+    "C_ds003523": {
+      "n_subjects": 34,
+      "n_splits": 5,
+      "seed": 42,
+      "stratified": true,
+      "strategy": "StratifiedKFold on 3-quantile bins of S3 NSI total",
+      "bin_counts": {
+        "0": 12,
+        "1": 11,
+        "2": 11
+      },
+      "loso_recommended": true
+    }
+  }
+}

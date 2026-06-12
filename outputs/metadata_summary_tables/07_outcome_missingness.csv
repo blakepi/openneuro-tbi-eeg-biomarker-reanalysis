@@ -1,0 +1,7 @@
+dataset,session_sheet,n_rows,NSIsoma,NSIcog,NSIemo,RivermeadTotal,BDItotal,Anxiety,Depression,Fatigue,PainRating
+ds003522,S1,93,91,91,91,90,91,91,91,91,91
+ds003522,S2,93,78,78,78,77,78,78,78,78,78
+ds003522,S3,93,62,62,62,60,62,62,62,62,62
+ds005114,S1,93,91,91,91,90,91,91,91,91,91
+ds005114,S2,93,78,78,78,77,78,78,78,78,78
+ds005114,S3,93,62,62,62,60,62,62,62,62,62

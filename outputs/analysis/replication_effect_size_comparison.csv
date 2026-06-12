@@ -1,0 +1,4 @@
+predictor,discovery_std_beta,discovery_ci,discovery_p_fdr,replication_extractable_in_ds005114,replication_std_beta,reason
+Global_Aperiodic_Exponent,-0.018,"[-0.83, 0.79]",0.962,False,NOT ESTIMABLE,rest paradigm absent in ds005114 (DPX task; no eyes-closed rest)
+Posterior_IAF,-0.154,"[-0.83, 0.52]",0.962,False,NOT ESTIMABLE,rest paradigm absent in ds005114 (DPX task; no eyes-closed rest)
+P3b_Amplitude,0.24,"[-0.40, 0.88]",0.962,False,NOT ESTIMABLE,oddball paradigm absent in ds005114 (DPX task; no auditory oddball)

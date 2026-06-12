@@ -1,0 +1,38 @@
+# Phase 0 (inspection / feasibility) dependencies.
+# These are sufficient to run scripts/00_download_or_load.py and
+# scripts/01_inspect_bids_metadata.py in "metadata-only" mode.
+#
+# NOTE on Python version: verified working on Python 3.14.5 with the pinned
+# versions below (mne 1.12.1, scipy 1.17.1, numpy 2.4.6). pybids wheels may lag
+# on the newest Python; if it fails to install, use environment.yml (conda).
+
+# --- Core data handling (required) ---
+pandas>=2.0
+numpy>=1.24
+openpyxl>=3.1            # read the BigAgg_*.xlsx clinical/outcome sheets
+requests>=2.31          # lightweight S3/HTTP metadata fetch (no AWS creds needed)
+
+# --- EEG / BIDS (required from Phase 2 on) ---
+mne>=1.6                  # verified working on Python 3.14 with mne 1.12.1
+mne-bids>=0.14
+pybids>=0.16
+
+# --- Splitting / CV (Phase 2: frozen leakage-safe folds) ---
+scikit-learn>=1.3         # StratifiedKFold/KFold for frozen_cv_folds.csv
+
+# --- Spectral parametrization (Phase 3: aperiodic 1/f features) ---
+specparam>=2.0            # FOOOF successor; aperiodic exponent/offset (SpectralModel)
+
+# --- Outcome modeling (Phase 4) ---
+statsmodels>=0.14         # OLS inference: CIs, p-values, residual & influence diagnostics
+xgboost>=2.0             # exploratory gradient boosting only
+
+# --- Plotting ---
+matplotlib>=3.7
+
+# --- Optional dataset-acquisition backends (any one is enough) ---
+# Uncomment whichever you intend to use; scripts auto-detect what is installed.
+# eegdash>=0.1          # EEGDash loader for OpenNeuro EEG
+# datalad>=1.0          # git-annex based download (also needs git-annex on PATH)
+# openneuro-py>=2024.2  # OpenNeuro CLI/python downloader
+# boto3>=1.34           # direct S3 access to the public openneuro.org bucket

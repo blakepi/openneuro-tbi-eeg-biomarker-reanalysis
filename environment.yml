@@ -1,0 +1,33 @@
+# Reproducible conda environment for the EEG mTBI recovery project.
+#
+#   conda env create -f environment.yml
+#   conda activate eeg-mtbi
+#
+# Python is pinned to 3.11 because the MNE / MNE-BIDS / pybids / datalad stack
+# has the most reliable wheels and conda-forge builds there.
+name: eeg-mtbi
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  # core data
+  - pandas>=2.0
+  - numpy>=1.24
+  - scipy>=1.11
+  - openpyxl>=3.1
+  - requests>=2.31
+  # EEG / BIDS
+  - mne>=1.6
+  - mne-bids>=0.14
+  - pybids>=0.16
+  # plotting
+  - matplotlib>=3.7
+  # dataset acquisition (git-annex is required by datalad)
+  - datalad>=1.0
+  - git-annex
+  - boto3>=1.34
+  - pip:
+      - openneuro-py>=2024.2
+      # eegdash is pip-only; uncomment if you want the EEGDash backend
+      # - eegdash

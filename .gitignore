@@ -1,0 +1,54 @@
+# ---------------------------------------------------------------------------
+# Raw / processed EEG data and fetched dataset metadata are NOT redistributed.
+# They are obtained directly from OpenNeuro (see data_availability.md).
+# ---------------------------------------------------------------------------
+data/raw/
+data/processed/
+data/metadata_cache/
+data/
+# keep folder placeholders if you add .gitkeep files:
+!data/**/.gitkeep
+
+# EEG / neurophysiology binary formats (never commit)
+*.set
+*.fdt
+*.fif
+*.edf
+*.bdf
+*.vhdr
+*.eeg
+*.vmrk
+*.mat
+*.xlsx
+
+# Python environment / caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Credentials / secrets (never commit)
+.env
+*.key
+*.pem
+*token*
+*credentials*
+.netrc
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.idea/
+.vscode/
+
+# Claude / agent local files
+.claude/

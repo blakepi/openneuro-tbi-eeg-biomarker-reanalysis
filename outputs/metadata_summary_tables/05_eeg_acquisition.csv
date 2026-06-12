@@ -1,0 +1,4 @@
+dataset,TaskName,SamplingFrequency,EEGChannelCount,EEGReference,EEGGround,PowerLineFrequency,ManufacturersModelName,RecordingType,RecordingDuration,n_channels_in_example,channel_types,native_format
+ds003522,ThreeStimAuditoryOddball,500,64,CPz,AFz,60,Brain Vision ActiChamp,continuous,965.05,65,,EEGLAB .set/.fdt
+ds005114,DPX,500,64,CPz,AFz,60,Brain Vision ActiChamp,continuous,2196.55,65,,EEGLAB .set/.fdt
+ds003523,VisualWorkingMemory,500,64,CPz,AFz,60,Brain Vision ActiChamp,continuous,1394.35,65,,EEGLAB .set/.fdt

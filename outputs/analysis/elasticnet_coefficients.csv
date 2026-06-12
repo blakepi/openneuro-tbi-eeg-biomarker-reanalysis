@@ -1,0 +1,11 @@
+model,predictor,coef_standardized,selected
+secondary_elasticnet,Global_Aperiodic_Exponent,0.0,False
+secondary_elasticnet,Posterior_IAF,0.0,False
+secondary_elasticnet,Frontal_Theta_Alpha_Ratio,0.0,False
+secondary_elasticnet,Occipital_Relative_Alpha,0.0,False
+secondary_elasticnet,P3b_Amplitude,0.0,False
+secondary_elasticnet,P3b_Latency,0.0,False
+secondary_elasticnet,P3a_Amplitude,0.0,False
+secondary_elasticnet,P3a_Latency,0.0,False
+secondary_elasticnet,Age,0.0,False
+secondary_elasticnet,Sex,0.0,False

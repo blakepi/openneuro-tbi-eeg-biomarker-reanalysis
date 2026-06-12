@@ -1,0 +1,51 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the manuscript and the underlying OpenNeuro datasets."
+title: "Leakage-Safe EEG Biomarker Analysis After Mild Traumatic Brain Injury: A Preregistered OpenNeuro Reanalysis and Replication Feasibility Study"
+type: software
+authors:
+  - given-names: "Gregory Blake"
+    family-names: "Pierpoint"
+    orcid: "https://orcid.org/0000-0001-8288-8549"
+    email: "pierpogb@odu.edu"
+    affiliation: "Macon and Joan Brock Virginia Health Sciences, Eastern Virginia Medical School at Old Dominion University"
+repository-code: "https://github.com/gblakepierpoint/openneuro-tbi-eeg-biomarker-reanalysis"
+version: "1.0.0-submission"
+date-released: "2026-06-12"
+license: MIT
+keywords:
+  - electroencephalography
+  - mild traumatic brain injury
+  - post-concussive symptoms
+  - event-related potentials
+  - aperiodic activity
+  - reproducibility
+  - data leakage
+  - preregistration
+  - OpenNeuro
+references:
+  - type: data
+    title: "EEG: Three-Stim Auditory Oddball and Rest in Acute and Chronic TBI"
+    authors:
+      - given-names: "James F."
+        family-names: "Cavanagh"
+      - given-names: "Davin"
+        family-names: "Quinn"
+    doi: "10.18112/openneuro.ds003522.v1.1.0"
+  - type: data
+    title: "EEG: DPX Cognitive Control Task in Acute Mild TBI"
+    authors:
+      - given-names: "James F."
+        family-names: "Cavanagh"
+    doi: "10.18112/openneuro.ds005114.v1.0.0"
+  - type: data
+    title: "EEG: Visual Working Memory in Acute TBI"
+    authors:
+      - given-names: "James F."
+        family-names: "Cavanagh"
+    doi: "10.18112/openneuro.ds003523.v1.1.0"
+  - type: data
+    title: "EEG: 3-Stim Auditory Oddball and Rest in Parkinson's"
+    authors:
+      - given-names: "James F."
+        family-names: "Cavanagh"
+    doi: "10.18112/openneuro.ds003490.v1.1.0"

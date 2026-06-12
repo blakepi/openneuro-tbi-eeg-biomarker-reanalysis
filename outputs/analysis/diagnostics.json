@@ -1,0 +1,145 @@
+{
+  "ols_diagnostics": [
+    {
+      "model": "primary_parsimonious",
+      "n": 21,
+      "shapiro_W": 0.9216845565816593,
+      "shapiro_p": 0.09377557610083388,
+      "breusch_pagan_LM": 4.363412776974181,
+      "breusch_pagan_p": 0.4983635911097757,
+      "durbin_watson": 1.855396131559749,
+      "condition_number": 749.22277044823,
+      "max_cooks_d": 0.5106503055391711,
+      "cooks_threshold_4overn": 0.19047619047619047,
+      "n_high_cooks": 3,
+      "max_leverage": 0.48143380640418043,
+      "max_abs_studentized_resid": 3.604341964771474,
+      "hc3_pvalues": {
+        "Global_Aperiodic_Exponent": 0.966885100681847,
+        "Posterior_IAF": 0.699389884129932,
+        "P3b_Amplitude": 0.6721603175166582,
+        "Age": 0.9249591411053925,
+        "Sex": 0.6434153965371789
+      }
+    },
+    {
+      "model": "transparency_full_OLS",
+      "n": 21,
+      "shapiro_W": 0.9125368333578388,
+      "shapiro_p": 0.061634372292732886,
+      "breusch_pagan_LM": 8.353944603625159,
+      "breusch_pagan_p": 0.5943065160502445,
+      "durbin_watson": 1.7310304007804709,
+      "condition_number": 22447.101684720255,
+      "max_cooks_d": 0.9682312688317886,
+      "cooks_threshold_4overn": 0.19047619047619047,
+      "n_high_cooks": 6,
+      "max_leverage": 0.8319681641818306,
+      "max_abs_studentized_resid": 2.6693259347785396
+    },
+    {
+      "model": "supportive_resting_only",
+      "n": 25,
+      "shapiro_W": 0.939041896720215,
+      "shapiro_p": 0.14067251021366484,
+      "breusch_pagan_LM": 4.591631363458676,
+      "breusch_pagan_p": 0.5971487445062338,
+      "durbin_watson": 1.95487638569882,
+      "condition_number": 1013.0010401967193,
+      "max_cooks_d": 0.8759782781374459,
+      "cooks_threshold_4overn": 0.16,
+      "n_high_cooks": 4,
+      "max_leverage": 0.6717627255077389,
+      "max_abs_studentized_resid": 2.2327002411847183
+    },
+    {
+      "model": "supportive_erp_only",
+      "n": 21,
+      "shapiro_W": 0.8909735198944084,
+      "shapiro_p": 0.02347682900165798,
+      "breusch_pagan_LM": 2.807629431325999,
+      "breusch_pagan_p": 0.8325751030547368,
+      "durbin_watson": 1.6805255144216744,
+      "condition_number": 5907.1734943610345,
+      "max_cooks_d": 0.728628625201441,
+      "cooks_threshold_4overn": 0.19047619047619047,
+      "n_high_cooks": 3,
+      "max_leverage": 0.5998646126955735,
+      "max_abs_studentized_resid": 3.4683378084708036
+    }
+  ],
+  "elasticnet": {
+    "alpha": 43.17392059761245,
+    "l1_ratio": 0.1,
+    "n_selected": 0,
+    "intercept": 14.619047619047619
+  },
+  "outcome_log": false,
+  "sensitivity_n20": [
+    {
+      "model": "sensitivity_primary_n20",
+      "predictor": "Global_Aperiodic_Exponent",
+      "beta": -4.96272034503896,
+      "se": 37.40831961271711,
+      "ci_low": -85.19558626776912,
+      "ci_high": 75.2701455776912,
+      "p_value": 0.8963473780761476,
+      "std_beta": -0.05534051976632573,
+      "std_ci_low": -0.9500370155993867,
+      "std_ci_high": 0.8393559760667353,
+      "n": 20
+    },
+    {
+      "model": "sensitivity_primary_n20",
+      "predictor": "Posterior_IAF",
+      "beta": -2.4253129081176015,
+      "se": 5.57604111621877,
+      "ci_low": -14.38473166546595,
+      "ci_high": 9.534105849230748,
+      "p_value": 0.6702268329764173,
+      "std_beta": -0.13695722908464428,
+      "std_ci_low": -0.8123046652802559,
+      "std_ci_high": 0.5383902071109674,
+      "n": 20
+    },
+    {
+      "model": "sensitivity_primary_n20",
+      "predictor": "P3b_Amplitude",
+      "beta": 2.064660822850045,
+      "se": 2.6531030444860564,
+      "ci_low": -3.625679268637846,
+      "ci_high": 7.755000914337936,
+      "p_value": 0.44940047070220074,
+      "std_beta": 0.2400518610927388,
+      "std_ci_low": -0.4215467482743469,
+      "std_ci_high": 0.9016504704598245,
+      "n": 20
+    },
+    {
+      "model": "sensitivity_primary_n20",
+      "predictor": "Age",
+      "beta": -0.1075676624410915,
+      "se": 0.6446108318395316,
+      "ci_low": -1.490120393458141,
+      "ci_high": 1.274985068575958,
+      "p_value": 0.869856792883781,
+      "std_beta": -0.07158145691124301,
+      "std_ci_low": -0.9916083171864551,
+      "std_ci_high": 0.848445403363969,
+      "n": 20
+    },
+    {
+      "model": "sensitivity_primary_n20",
+      "predictor": "Sex",
+      "beta": -5.159311325489543,
+      "se": 10.247000387873948,
+      "ci_low": -27.13694134849016,
+      "ci_high": 16.818318697511074,
+      "p_value": 0.6224455058980728,
+      "std_beta": -0.1412681337321853,
+      "std_ci_low": -0.7430420103863807,
+      "std_ci_high": 0.4605057429220102,
+      "n": 20
+    }
+  ]
+}
