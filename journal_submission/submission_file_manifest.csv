@@ -1,29 +1,39 @@
-file_path,file_type,size_bytes,last_modified,opened_structurally,structural_details,visually_rendered,render_details,ready_for_upload
-journal_submission/main_manuscript_cnp.docx,docx,59511,2026-06-13T15:38:15,yes,paragraphs=350; tables=6,yes,Word PDF export; pages=20,yes
-journal_submission/supplement_cnp.docx,docx,511370,2026-06-13T15:38:15,yes,paragraphs=410; tables=15,yes,Word PDF export; pages=21,yes
-journal_submission/title_page_cnp.docx,docx,37629,2026-06-13T15:21:14,yes,paragraphs=30; tables=0,yes,Word PDF export; pages=2,yes
-journal_submission/cover_letter_cnp.docx,docx,39168,2026-06-13T15:38:14,yes,paragraphs=12; tables=0,yes,Word PDF export; pages=1,yes
-journal_submission/highlights.docx,docx,36918,2026-06-13T14:11:03,yes,paragraphs=6; tables=0,yes,Word PDF export; pages=1,yes
-journal_submission/highlights.txt,txt,296,2026-06-13T14:11:03,yes,text/source file present,not_applicable,not_applicable,yes
-journal_submission/figures/Figure_1_study_flow.png,png,304528,2026-06-11T23:43:48,yes,1611x1827; mode=RGBA,yes,image opened structurally; included in figure package,yes
-journal_submission/figures/Figure_2_recording_structure.png,png,97280,2026-06-11T23:43:48,yes,2013x718; mode=RGBA,yes,image opened structurally; included in figure package,yes
-journal_submission/figures/Figure_3_preprocessing_pipeline.png,png,196513,2026-06-11T23:43:48,yes,1734x1180; mode=RGBA,yes,image opened structurally; included in figure package,yes
-journal_submission/figures/Figure_4_primary_coefficient_forest.png,png,76002,2026-06-11T23:43:48,yes,1560x900; mode=RGBA,yes,image opened structurally; included in figure package,yes
-journal_submission/figures/Figure_5_predicted_vs_observed.png,png,92739,2026-06-11T23:43:48,yes,1320x1260; mode=RGBA,yes,image opened structurally; included in figure package,yes
-journal_submission/figures/Figure_6_feature_availability_matrix.png,png,125605,2026-06-11T23:43:49,yes,2559x965; mode=RGBA,yes,image opened structurally; included in figure package,yes
-journal_submission/figures/Figure_7_discovery_vs_replication.png,png,87321,2026-06-11T23:43:49,yes,1848x877; mode=RGBA,yes,image opened structurally; included in figure package,yes
-journal_submission/figures/FigureS1_partial_effects.png,png,130340,2026-06-11T23:43:49,yes,2460x870; mode=RGBA,yes,image opened structurally; included in figure package,yes
-journal_submission/figures/FigureS2_elasticnet_path.png,png,143586,2026-06-11T23:43:49,yes,1620x960; mode=RGBA,yes,image opened structurally; included in figure package,yes
-journal_submission/figures/FigureS3_calibration.png,png,101167,2026-06-11T23:43:49,yes,1320x1260; mode=RGBA,yes,image opened structurally; included in figure package,yes
-journal_submission/figures/FigureS4_family_contribution.png,png,94363,2026-06-11T23:43:49,yes,1620x1020; mode=RGBA,yes,image opened structurally; included in figure package,yes
-journal_submission/figures/FigureS5_specparam_fit_quality.png,png,31622,2026-06-12T20:12:01,yes,990x576; mode=RGBA,yes,image opened structurally; included in figure package,yes
-journal_submission/tables/Table1_dataset_overview.md,md,1477,2026-06-13T14:11:03,yes,text/source file present,not_applicable,not_applicable,yes
-journal_submission/tables/Table2_participant_flow.md,md,1466,2026-06-13T15:24:52,yes,text/source file present,not_applicable,not_applicable,yes
-journal_submission/tables/Table3_feature_panel.md,md,1681,2026-06-11T23:47:53,yes,text/source file present,not_applicable,not_applicable,yes
-journal_submission/tables/Table4_model_results.md,md,2623,2026-06-13T14:11:03,yes,text/source file present,not_applicable,not_applicable,yes
-journal_submission/tables/Table5_replication_matrix.md,md,1298,2026-06-13T14:11:03,yes,text/source file present,not_applicable,not_applicable,yes
-journal_submission/tables/TableS7_secondary_outcomes.md,md,724,2026-06-13T14:11:03,yes,text/source file present,not_applicable,not_applicable,yes
-journal_submission/tables/TableS8_sensitivity_battery.md,md,1825,2026-06-12T20:16:19,yes,text/source file present,not_applicable,not_applicable,yes
-journal_submission/tables/TableS9_attrition_completers.md,md,601,2026-06-12T20:16:19,yes,text/source file present,not_applicable,not_applicable,yes
-journal_submission/tables/TableS10_specparam_fit_quality.md,md,895,2026-06-12T20:16:19,yes,text/source file present,not_applicable,not_applicable,yes
-journal_submission/tables/TableS11_execution_notes.md,md,687,2026-06-12T20:16:19,yes,text/source file present,not_applicable,not_applicable,yes
+﻿"file_path","file_type","size_bytes","last_modified","opened_structurally","structural_details","visually_rendered","render_details","ready_for_upload"
+"journal_submission/main_manuscript_cnp.docx","docx","59511","2026-06-13T15:38:15","yes","paragraphs=350; tables=6","yes","Word PDF export; pages=20","yes"
+"journal_submission/supplement_cnp.docx","docx","511370","2026-06-13T15:38:15","yes","paragraphs=410; tables=15","yes","Word PDF export; pages=21","yes"
+"journal_submission/title_page_cnp.docx","docx","37629","2026-06-13T15:21:14","yes","paragraphs=30; tables=0","yes","Word PDF export; pages=2","yes"
+"journal_submission/cover_letter_cnp.docx","docx","39168","2026-06-13T15:38:14","yes","paragraphs=12; tables=0","yes","Word PDF export; pages=1","yes"
+"journal_submission/highlights.docx","docx","36918","2026-06-13T14:11:03","yes","paragraphs=6; tables=0","yes","Word PDF export; pages=1","yes"
+"journal_submission/highlights.txt","txt","296","2026-06-13T14:11:03","yes","text/source file present","not_applicable","not_applicable","yes"
+"journal_submission/figures/Figure_1_study_flow.png","png","304528","2026-06-11T23:43:48","yes","1611x1827; mode=RGBA","yes","image opened structurally; included in figure package","yes"
+"journal_submission/figures/Figure_2_recording_structure.png","png","97280","2026-06-11T23:43:48","yes","2013x718; mode=RGBA","yes","image opened structurally; included in figure package","yes"
+"journal_submission/figures/Figure_3_preprocessing_pipeline.png","png","196513","2026-06-11T23:43:48","yes","1734x1180; mode=RGBA","yes","image opened structurally; included in figure package","yes"
+"journal_submission/figures/Figure_4_primary_coefficient_forest.png","png","76002","2026-06-11T23:43:48","yes","1560x900; mode=RGBA","yes","image opened structurally; included in figure package","yes"
+"journal_submission/figures/Figure_5_predicted_vs_observed.png","png","92739","2026-06-11T23:43:48","yes","1320x1260; mode=RGBA","yes","image opened structurally; included in figure package","yes"
+"journal_submission/figures/Figure_6_feature_availability_matrix.png","png","125605","2026-06-11T23:43:49","yes","2559x965; mode=RGBA","yes","image opened structurally; included in figure package","yes"
+"journal_submission/figures/Figure_7_discovery_vs_replication.png","png","87321","2026-06-11T23:43:49","yes","1848x877; mode=RGBA","yes","image opened structurally; included in figure package","yes"
+"journal_submission/figures/FigureS1_partial_effects.png","png","130340","2026-06-11T23:43:49","yes","2460x870; mode=RGBA","yes","image opened structurally; included in figure package","yes"
+"journal_submission/figures/FigureS2_elasticnet_path.png","png","143586","2026-06-11T23:43:49","yes","1620x960; mode=RGBA","yes","image opened structurally; included in figure package","yes"
+"journal_submission/figures/FigureS3_calibration.png","png","101167","2026-06-11T23:43:49","yes","1320x1260; mode=RGBA","yes","image opened structurally; included in figure package","yes"
+"journal_submission/figures/FigureS4_family_contribution.png","png","94363","2026-06-11T23:43:49","yes","1620x1020; mode=RGBA","yes","image opened structurally; included in figure package","yes"
+"journal_submission/figures/FigureS5_specparam_fit_quality.png","png","31622","2026-06-12T20:12:01","yes","990x576; mode=RGBA","yes","image opened structurally; included in figure package","yes"
+"journal_submission/tables/Table1_dataset_overview.md","md","1477","2026-06-13T14:11:03","yes","text/source file present","not_applicable","not_applicable","yes"
+"journal_submission/tables/Table2_participant_flow.md","md","1466","2026-06-13T15:24:52","yes","text/source file present","not_applicable","not_applicable","yes"
+"journal_submission/tables/Table3_feature_panel.md","md","1681","2026-06-11T23:47:53","yes","text/source file present","not_applicable","not_applicable","yes"
+"journal_submission/tables/Table4_model_results.md","md","2623","2026-06-13T14:11:03","yes","text/source file present","not_applicable","not_applicable","yes"
+"journal_submission/tables/Table5_replication_matrix.md","md","1298","2026-06-13T14:11:03","yes","text/source file present","not_applicable","not_applicable","yes"
+"journal_submission/tables/TableS7_secondary_outcomes.md","md","724","2026-06-13T14:11:03","yes","text/source file present","not_applicable","not_applicable","yes"
+"journal_submission/tables/TableS8_sensitivity_battery.md","md","1825","2026-06-12T20:16:19","yes","text/source file present","not_applicable","not_applicable","yes"
+"journal_submission/tables/TableS9_attrition_completers.md","md","601","2026-06-12T20:16:19","yes","text/source file present","not_applicable","not_applicable","yes"
+"journal_submission/tables/TableS10_specparam_fit_quality.md","md","895","2026-06-12T20:16:19","yes","text/source file present","not_applicable","not_applicable","yes"
+"journal_submission/tables/TableS11_execution_notes.md","md","687","2026-06-12T20:16:19","yes","text/source file present","not_applicable","not_applicable","yes"
+"journal_submission/cnp_submission_final_20260613/abstract_cnp_final.docx","docx","37736","2026-06-13T17:36:53","yes","final imported CNP submission bundle file; supersedes prior active upload package where applicable","not_applicable","final bundle supplied and imported without scientific reanalysis","yes"
+"journal_submission/cnp_submission_final_20260613/CODEX_GITHUB_ZENODO_PROMPT.md","md","3216","2026-06-13T17:36:53","yes","final imported CNP submission bundle file; supersedes prior active upload package where applicable","not_applicable","final bundle supplied and imported without scientific reanalysis","yes"
+"journal_submission/cnp_submission_final_20260613/cover_letter_cnp_final.docx","docx","38110","2026-06-13T17:36:53","yes","final imported CNP submission bundle file; supersedes prior active upload package where applicable","not_applicable","final bundle supplied and imported without scientific reanalysis","yes"
+"journal_submission/cnp_submission_final_20260613/GITHUB_ZENODO_UPDATE_GUIDE.md","md","4870","2026-06-13T17:36:53","yes","final imported CNP submission bundle file; supersedes prior active upload package where applicable","not_applicable","final bundle supplied and imported without scientific reanalysis","yes"
+"journal_submission/cnp_submission_final_20260613/highlights_cnp_final.docx","docx","36843","2026-06-13T17:36:53","yes","final imported CNP submission bundle file; supersedes prior active upload package where applicable","not_applicable","final bundle supplied and imported without scientific reanalysis","yes"
+"journal_submission/cnp_submission_final_20260613/main_manuscript_cnp_final.docx","docx","57304","2026-06-13T17:36:53","yes","final imported CNP submission bundle file; supersedes prior active upload package where applicable","not_applicable","final bundle supplied and imported without scientific reanalysis","yes"
+"journal_submission/cnp_submission_final_20260613/RELEASE_NOTES_CNP_SUBMISSION_FINAL.md","md","1684","2026-06-13T17:52:52","yes","final imported CNP submission bundle file; supersedes prior active upload package where applicable","not_applicable","final bundle supplied and imported without scientific reanalysis","yes"
+"journal_submission/cnp_submission_final_20260613/SUBMISSION_CLEANUP_LOG.md","md","1059","2026-06-13T17:36:53","yes","final imported CNP submission bundle file; supersedes prior active upload package where applicable","not_applicable","final bundle supplied and imported without scientific reanalysis","yes"
+"journal_submission/cnp_submission_final_20260613/supplement_cnp_final.docx","docx","509441","2026-06-13T17:36:53","yes","final imported CNP submission bundle file; supersedes prior active upload package where applicable","not_applicable","final bundle supplied and imported without scientific reanalysis","yes"
+"journal_submission/cnp_submission_final_20260613/title_page_cnp_final.docx","docx","37628","2026-06-13T17:36:53","yes","final imported CNP submission bundle file; supersedes prior active upload package where applicable","not_applicable","final bundle supplied and imported without scientific reanalysis","yes"

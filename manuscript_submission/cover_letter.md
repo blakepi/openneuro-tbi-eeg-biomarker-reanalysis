@@ -2,7 +2,7 @@
 
 Dear Editors,
 
-We are pleased to submit the manuscript, **"Leakage-Safe EEG Biomarker Analysis After Mild Traumatic Brain Injury: A Preregistered OpenNeuro Reanalysis and Replication Feasibility Study,"** for consideration as an original research or methodological neurophysiology article.
+We are pleased to submit the manuscript, **"Leakage-Safe EEG Biomarker Analysis After Mild Traumatic Brain Injury: An Internally Locked OpenNeuro Reanalysis and Replication Feasibility Study,"** for consideration as an original research or methodological neurophysiology article.
 
 This manuscript reports a rigorous methodological reanalysis of EEG-based prognostic modeling after mild traumatic brain injury. Using the public OpenNeuro ds003522 dataset, we conducted a leakage-safe longitudinal reanalysis in which Session-1 resting-state and auditory-oddball EEG features were evaluated against later Session-3 NSI symptom burden. Subject identity handling, feature definitions, cross-validation folds, preprocessing rules, and the statistical hierarchy were locked before outcome modeling. The study found no stable primary evidence that the tested EEG feature panel predicted later Session-3 NSI symptom burden in this small cohort; prespecified secondary and sensitivity analyses are reported transparently.
 

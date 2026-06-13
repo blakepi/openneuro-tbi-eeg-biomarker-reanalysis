@@ -1,7 +1,7 @@
 {
-  "title": "Leakage-Safe EEG Biomarker Analysis After Mild Traumatic Brain Injury: A Preregistered OpenNeuro Reanalysis and Replication Feasibility Study",
+  "title": "Leakage-Safe EEG Biomarker Analysis After Mild Traumatic Brain Injury: An Internally Locked OpenNeuro Reanalysis and Replication Feasibility Study",
   "upload_type": "software",
-  "description": "Reviewer-facing analysis code, frozen analysis plan, derived outputs, and manuscript materials for a leakage-safe OpenNeuro EEG biomarker reanalysis and replication-feasibility audit. Archived release DOI: 10.5281/zenodo.20682573.",
+  "description": "Reviewer-facing analysis code, frozen analysis plan, derived outputs, and manuscript materials for an internally locked, leakage-safe OpenNeuro EEG biomarker reanalysis and replication-feasibility audit. Archived release DOI: 10.5281/zenodo.20682573. Raw OpenNeuro EEG data are not redistributed in this repository.",
   "creators": [
     {
       "name": "Pierpoint, Gregory Blake",
@@ -40,6 +40,6 @@
       "resource_type": "dataset"
     }
   ],
-  "version": "v1.0.0-cnp-submission",
+  "version": "v1.0.1-cnp-submission-final",
   "publication_date": "2026-06-13"
 }

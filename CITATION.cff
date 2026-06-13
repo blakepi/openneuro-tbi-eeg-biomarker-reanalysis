@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this analysis package, please cite the Zenodo DOI and GitHub release."
-title: "Leakage-Safe EEG Biomarker Analysis After Mild Traumatic Brain Injury: A Preregistered OpenNeuro Reanalysis and Replication Feasibility Study"
+title: "Leakage-Safe EEG Biomarker Analysis After Mild Traumatic Brain Injury: An Internally Locked OpenNeuro Reanalysis and Replication Feasibility Study"
 type: software
 authors:
   - family-names: "Pierpoint"
@@ -8,7 +8,7 @@ authors:
     orcid: "https://orcid.org/0000-0001-8288-8549"
     email: "pierpogb@odu.edu"
     affiliation: "Macon and Joan Brock Virginia Health Sciences, Eastern Virginia Medical School at Old Dominion University"
-version: "v1.0.0-cnp-submission"
+version: "v1.0.1-cnp-submission-final"
 date-released: "2026-06-13"
 doi: "10.5281/zenodo.20682573"
 license: "MIT"

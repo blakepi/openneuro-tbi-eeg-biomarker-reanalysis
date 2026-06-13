@@ -1,15 +1,15 @@
-# Leakage-Safe EEG Biomarker Analysis After Mild Traumatic Brain Injury
+# Leakage-Safe EEG Biomarker Analysis After Mild Traumatic Brain Injury: An Internally Locked OpenNeuro Reanalysis and Replication Feasibility Study
 
 This repository contains the analysis code, frozen analysis plan, derived outputs, and manuscript materials for:
 
-**Leakage-Safe EEG Biomarker Analysis After Mild Traumatic Brain Injury: A Preregistered OpenNeuro Reanalysis and Replication Feasibility Study**
+**Leakage-Safe EEG Biomarker Analysis After Mild Traumatic Brain Injury: An Internally Locked OpenNeuro Reanalysis and Replication Feasibility Study**
 
 ## Reviewer quick start
 
 This repository is intended to let reviewers inspect the analysis decisions, frozen folds, derived outputs, and replication-feasibility audit without redistributing raw EEG data.
 
-- Manuscript package: `journal_submission/` and `manuscript_submission/`
-- Current CNP DOCX package: `journal_submission/main_manuscript_cnp.docx`, `journal_submission/supplement_cnp.docx`, `journal_submission/title_page_cnp.docx`, `journal_submission/cover_letter_cnp.docx`, `journal_submission/highlights.docx`
+- Final CNP submission package: `journal_submission/cnp_submission_final_20260613/`
+- Manuscript source package: `journal_submission/` and `manuscript_submission/`
 - Locked analysis plan: `reports/statistical_analysis_plan.md` and `journal_submission/supplement_cnp.docx`
 - Frozen subject-level folds: `outputs/splits/frozen_cv_folds.csv`
 - Main model coefficients: `outputs/analysis/model_coefficients.csv`
@@ -23,7 +23,7 @@ Raw EEG data are publicly available from OpenNeuro and are not redistributed her
 
 ## Main findings
 
-In the primary model (n = 21), no predictor's 95% confidence interval excluded zero. The Elastic Net retained no EEG feature for the primary NSI outcome. All EEG-feature models had negative out-of-fold R². The least-poor penalized models performed less poorly than the age+sex baseline only by shrinking to, or near, a mean/intercept predictor rather than by retaining a reproducible EEG-feature signal.
+In the primary model (n = 21), no predictor's 95% confidence interval excluded zero. The Elastic Net retained no EEG feature for the primary NSI outcome. All EEG-feature models had negative out-of-fold R-squared. The least-poor penalized models performed less poorly than the age+sex baseline only by shrinking to, or near, a mean/intercept predictor rather than by retaining a reproducible EEG-feature signal.
 
 A prespecified secondary P3b association with S1-to-S3 Rivermead change was treated as hypothesis-generating and does not alter the primary NSI conclusion.
 
@@ -31,9 +31,9 @@ Feature-identical clinical replication was not estimable in the surveyed related
 
 ## Release/package state
 
-The reviewer-facing submission package was released as GitHub tag `v1.0.0-cnp-submission` and archived on Zenodo at https://doi.org/10.5281/zenodo.20682573 (DOI: `10.5281/zenodo.20682573`). The archived release tag resolves to commit `ac84ad461197c20a7af7caeac7b293d6f1133d98`.
+The final reviewer-facing CNP submission package is released as GitHub tag `v1.0.1-cnp-submission-final` and archived on Zenodo at https://doi.org/10.5281/zenodo.20682573 (DOI: `10.5281/zenodo.20682573`).
 
-The frozen analyses and derived outputs were not changed by the final reviewer-facing manuscript/repository polish pass.
+The frozen analyses and derived outputs were not changed by the final reviewer-facing manuscript/repository packaging pass.
 
 ## Citation and DOI
 

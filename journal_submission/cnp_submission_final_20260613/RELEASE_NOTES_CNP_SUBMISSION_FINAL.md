@@ -15,7 +15,7 @@ This release archives the final reviewer-facing CNP submission package for:
 
 ## Scientific status
 
-The final release does not rerun or change the frozen analyses. It updates reviewer-facing manuscript and repository metadata only. This is a methodological, leakage-safe reanalysis and replication-feasibility audit, not a validated clinical biomarker claim.
+This reviewer-facing release does not rerun or change the frozen analyses. It updates manuscript and repository metadata only. This is a methodological, leakage-safe reanalysis and replication-feasibility audit, not a validated clinical biomarker claim.
 
 Primary result: no stable primary EEG predictive signal was recoverable for Session-3 NSI symptom burden in the locked small-cohort analysis.
 
@@ -29,6 +29,6 @@ Raw EEG data are publicly available from OpenNeuro and are not redistributed in 
 
 ## DOI
 
-Archived Zenodo DOI: https://doi.org/10.5281/zenodo.20682573 (DOI: `10.5281/zenodo.20682573`).
+Zenodo DOI: 10.5281/zenodo.20682573
 
-GitHub tag `v1.0.1-cnp-submission-final` archives this final submission package.
+Archived release DOI URL: https://doi.org/10.5281/zenodo.20682573

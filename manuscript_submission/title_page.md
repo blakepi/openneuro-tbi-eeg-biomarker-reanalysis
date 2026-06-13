@@ -1,7 +1,7 @@
 # Title Page
 
 ## Title
-**Leakage-Safe EEG Biomarker Analysis After Mild Traumatic Brain Injury: A Preregistered OpenNeuro Reanalysis and Replication Feasibility Study**
+**Leakage-Safe EEG Biomarker Analysis After Mild Traumatic Brain Injury: An Internally Locked OpenNeuro Reanalysis and Replication Feasibility Study**
 
 ## Running title
 Leakage-safe EEG biomarkers after mTBI
