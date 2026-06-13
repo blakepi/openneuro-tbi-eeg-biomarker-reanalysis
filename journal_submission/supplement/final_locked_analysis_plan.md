@@ -1,5 +1,5 @@
 # FINAL LOCKED ANALYSIS PLAN — Preregistration Supplement
-### Early Resting-State and Task-Evoked EEG Biomarkers of Persistent Post-Concussive Symptoms Following Mild Traumatic Brain Injury: A Leakage-Safe Longitudinal Reanalysis of a Public OpenNeuro Dataset
+### Early Resting-State and Task-Evoked EEG Biomarkers of Later Session-3 NSI Symptom Burden Following Mild Traumatic Brain Injury: A Leakage-Safe Longitudinal Reanalysis of a Public OpenNeuro Dataset
 
 **Lock version:** 1.0 (Phase 3.6 final lock)
 **Date locked:** 2026-06-11
@@ -23,7 +23,7 @@ differs, **this document governs.**
 ## 1. Final hypotheses
 
 **Primary (H1).** Among adults with acute mTBI, a compact, biologically motivated panel of
-Session-1 EEG features is associated with persistent post-concussive symptom burden at ~4 months
+Session-1 EEG features is associated with later Session-3 NSI symptom burden
 (Session-3 NSI total), over and above age and sex.
 
 The **primary confirmatory test** of H1 is a parsimonious linear model carrying one biomarker per
@@ -117,7 +117,7 @@ Session-1 features, primary resting condition = **Eyes Closed (EC)**, primary ER
 7. P3a amplitude — `erp_P3a_novel_fc_mean_uv` (sensitivity: `erp_P3a_novel_fc_peak_uv`)
 8. P3a latency — `erp_P3a_novel_fc_lat_ms`
 
-**Optional exploratory:** Spectral entropy — `rest_EC_global_spec_entropy`.
+**Exploratory only:** Spectral entropy — `rest_EC_global_spec_entropy`.
 
 **No additional EEG feature may enter the primary analyses.** Any other extracted feature is
 exploratory and labelled as such.

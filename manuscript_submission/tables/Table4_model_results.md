@@ -31,7 +31,4 @@ out: no predictor sign-stable. Source: `outputs/analysis/model_coefficients.csv`
 | Random Forest | exploratory | 21 | −0.29 (−1.14, −0.06) | 14.9 | — |
 | XGBoost | exploratory | 21 | −0.36 (−1.36, 0.09) | 14.7 | — |
 
-*All EEG models have negative out-of-fold R²; none exceeds the age+sex baseline. The Elastic Net
-selected α = 43.2, mixing parameter = 0.10, and shrank all 10 coefficients to zero (intercept =
-14.6, the cohort mean). Source: `outputs/analysis/cv_performance.csv`,
-`outputs/analysis/elasticnet_coefficients.csv`, `outputs/analysis/model_fit_summary.csv`.*
+*Out-of-fold R²/MAE are leakage-safety transparency metrics, not stable model-ranking estimates at n = 21. All EEG models had negative out-of-fold R². The least-poor penalized models performed less poorly than the age+sex baseline only by shrinking to, or near, a mean/intercept predictor rather than by retaining a reproducible EEG feature signal. The Elastic Net selected α = 43.2, mixing parameter = 0.10, and shrank all 10 coefficients to zero (intercept = 14.6, the cohort mean). Source: `outputs/analysis/cv_performance.csv`, `outputs/analysis/elasticnet_coefficients.csv`, `outputs/analysis/model_fit_summary.csv`.*

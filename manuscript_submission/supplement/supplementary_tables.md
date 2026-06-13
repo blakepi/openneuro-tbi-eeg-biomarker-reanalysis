@@ -79,3 +79,59 @@ Source: `outputs/analysis/cv_performance.csv`.
 
 *Source: `outputs/analysis/replication_feature_availability.csv`; full ds005114 scan in
 `scripts/13_replication_feasibility.py` console log and `reports/phase5_replication_results.md`.*
+
+
+
+## Table S7. Prespecified secondary outcomes
+| Outcome | n | Key EEG term | Std beta (95% CI) | p (FDR) | adj R2 | OOF R2 | Interpretation |
+|---|---:|---|---:|---:|---:|---:|---|
+| S3 Rivermead total | 19 | P3b Amplitude | 0.33 (-0.27 to 0.93) | 0.363 | 0.010 | -0.270 | No interval excluded zero. |
+| S1-to-S3 NSI change | 21 | P3b Amplitude | 0.42 (-0.19 to 1.03) | 0.698 | -0.103 | -0.967 | No interval excluded zero. |
+| S1-to-S3 Rivermead change | 19 | P3b Amplitude | 0.66 (0.21 to 1.11) | 0.035 | 0.450 | 0.248 | Secondary, hypothesis-generating association; change was defined as Session 3 minus Session 1, so positive values indicate higher/worse symptom burden at Session 3. Interpret cautiously and replicate. |
+
+## Table S8. Prespecified sensitivity battery
+| Sensitivity | Status | n | adj R2 | OOF R2 | Interpretation |
+|---|---|---:|---:|---:|---|
+| robust_HC3_primary | already_computed | 21 | -0.186 |  | HC3 p-values ranged from 0.643 to 0.967; inference remained null. |
+| erp_metric_peak_primary | run | 21 | -0.195 | -1.596 | P3b peak amplitude replaced the mean-window P3b primary metric. |
+| eyes_open_primary_combined | run | 17 | 0.174 | -0.719 | Eyes-open analogues replaced the eyes-closed resting predictors; EO >=40 s required. |
+| mice_predictor_imputation_primary | run | 25 |  | -0.999 | Predictors only imputed; outcome was not imputed. Rubin-pooled coefficients and in-fold iterative-imputer OOF metrics reported. |
+| erp_low_trial_subjects_included | run | 24 | -0.137 | -1.259 | Subjects with numeric ERP features but below locked trial-count reliability floor were included; sub-040 remained unavailable. |
+| added_covariates_days_gcs_loc_duration | run | 18 | -0.707 | -15.248 | Added locked timing/severity covariates where available; LOC duration set to 0 when LOC=0 and duration structurally missing. |
+| session2_nsi_timing_primary | run | 20 | -0.126 | -1.023 | Supportive outcome-timing sensitivity using S2 NSI total. |
+| log1p_outcome_primary | run | 21 | -0.178 | -0.968 | Primary predictors refit on log1p(Session-3 NSI). |
+| sub040_scode_recovery | not_run |  |  |  | Sub-040 events contain STATUS values S8/S9/S10/R12 rather than named target/novel/standard labels; exact recovery mapping was not operationalized in the locked feature pipeline. |
+| highpass_0p1_reextract | not_run |  |  |  | No 0.1-Hz high-pass feature branch exists in frozen outputs; running it would require full raw reprocessing and a separate locked branch. Documented as an unexecuted registered sensitivity. |
+
+## Table S9. S3 completers versus non-completers
+| Baseline variable | Completers | Non-completers | SMD | descriptive p |
+|---|---:|---:|---:|---:|
+| Age | 28.08 (10.08) | 27.68 (9.70) | 0.04 | 0.896 |
+| Sex (recorded female=1) | 0.28 | 0.42 | -0.30 |  |
+| Session-1 NSI total | 21.04 (19.68) | 23.00 (19.08) | -0.10 | 0.741 |
+| Session-1 Rivermead total | 21.32 (13.36) | 23.17 (13.48) | -0.14 | 0.659 |
+| Days since injury at Session 1 | 9.64 (3.71) | 11.00 (3.21) | -0.39 | 0.201 |
+| GCS | 14.95 (0.21) | 14.64 (0.74) | 0.64 | 0.149 |
+| Loss of consciousness | 0.92 | 1.00 | -0.42 |  |
+
+## Table S10. specparam fit quality
+| Scope | n | min | median | mean | IQR | count <0.90 | count <0.80 |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| rest_EC_frontal_aper_r2 | 25 | 0.930 | 0.994 | 0.986 | 0.014 | 0 | 0 |
+| rest_EC_central_aper_r2 | 25 | 0.871 | 0.990 | 0.977 | 0.022 | 1 | 0 |
+| rest_EC_parietal_aper_r2 | 25 | 0.965 | 0.992 | 0.990 | 0.008 | 0 | 0 |
+| rest_EC_occipital_aper_r2 | 25 | 0.964 | 0.989 | 0.987 | 0.007 | 0 | 0 |
+| rest_EC_global_aper_r2 | 25 | 0.920 | 0.994 | 0.986 | 0.008 | 0 | 0 |
+| rest_EO_frontal_aper_r2 | 25 | 0.877 | 0.987 | 0.975 | 0.017 | 1 | 0 |
+| rest_EO_central_aper_r2 | 25 | 0.735 | 0.988 | 0.973 | 0.010 | 1 | 1 |
+| rest_EO_parietal_aper_r2 | 25 | 0.964 | 0.992 | 0.991 | 0.005 | 0 | 0 |
+| rest_EO_occipital_aper_r2 | 25 | 0.956 | 0.990 | 0.988 | 0.005 | 0 | 0 |
+| rest_EO_global_aper_r2 | 25 | 0.930 | 0.989 | 0.984 | 0.013 | 0 | 0 |
+
+## Table S11. Locked-plan execution notes
+| Issue | Resolution |
+|---|---|
+| n = 20 vs n = 21 | The primary eyes-closed/ERP model retained n = 21; the n = 20 analysis is the eyes-open-low sensitivity excluding sub-068. |
+| 0.1-Hz high-pass sensitivity | No frozen 0.1-Hz branch existed; full raw reprocessing was not used to replace the locked 0.5-Hz pipeline. |
+| sub-040 S-code recovery | Events were not named Target/Novel/Standard and the locked extractor did not operationalize a recovery mapping. |
+| IPW attrition sensitivity | Descriptive attrition comparison was completed; no hard imbalance trigger was specified in the locked plan, so IPW was not invented post hoc. |

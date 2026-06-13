@@ -52,8 +52,7 @@ Welch PSD (2-s Hamming windows, 50% overlap, 1–45 Hz) on artifact-screened 2-s
 150 µV peak-to-peak), averaged within frontal/central/parietal/occipital/global regions. Bands: delta
 1–4, theta 4–8, alpha 8–12, beta 13–30 Hz. Relative power normalized to 1–45 Hz total. Posterior IAF =
 7–13 Hz peak of the mean parietal–occipital eyes-closed spectrum (undefined when no clear peak).
-Aperiodic exponent/offset via specparam (fixed mode, 1–40 Hz fit). Spectral entropy = Shannon entropy
-of the normalized 1–45 Hz PSD (exploratory).
+Aperiodic exponent/offset via specparam 2.0.0 using SpectralModel with fixed aperiodic mode, 1-40 Hz fit range, peak width limits 1-8 Hz, maximum six peaks, minimum peak height 0.0, and peak threshold 2.0. Aperiodic R2 was exported for each condition and region; no EC/EO aperiodic R2 fields were missing in the feature matrix, and no aperiodic spectra were excluded as unfit in the frozen outputs. Across exported EC/EO regional/global fits, R2 ranged from 0.7349 to 0.9984, and the primary EC global fit R2 ranged from 0.9202 to 0.9975 (mean 0.9863). No separate fit-error statistic or representative specparam fit plot was exported. Spectral entropy = Shannon entropy of the normalized 1-45 Hz PSD (exploratory).
 
 ## S.7 ERP feature definitions and reliability thresholds
 Epochs −200 to +800 ms, baseline −200–0 ms, boundary-aware rejection, 150 µV peak-to-peak rejection on

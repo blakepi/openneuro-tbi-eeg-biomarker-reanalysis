@@ -8,13 +8,12 @@ definitions, and preprocessing were **not** changed. Cohorts were **not** combin
 finding is promoted. The framework remains estimation-first; no causal claims are made.
 Producing scripts: `13_replication_feasibility.py`, `14_replication_figures.py`.
 
-> **Headline:** The designated replication cohort **ds005114 cannot replicate the discovery
-> analysis**, because it contains **neither the auditory-oddball paradigm nor any embedded resting
-> EEG**. **0 of the 8 locked predictors are extractable with their preregistered definitions.** A
-> feature-identical outcome replication is therefore **not possible** in ds005114 (nor in
-> ds003523), and we decline to manufacture one by redefining features — doing so would violate the
-> locked definitions and reintroduce exactly the analytic flexibility this project is designed to
-> exclude. The discovery null thus remains **untested**, not refuted, in independent data.
+**Headline:** The designated replication cohort **ds005114 is not feature-identical under the locked
+definitions**, because it contains **neither the auditory-oddball paradigm nor any embedded resting
+EEG**. **0 of the 8 locked predictors are extractable with their preregistered definitions.** A
+feature-identical clinical replication model is therefore **not estimable** in ds005114 (nor in
+ds003523) without redefining the locked features or changing the clinical estimand. The discovery
+null thus remains **untested**, not refuted, in independent data.
 
 ---
 
@@ -101,7 +100,7 @@ post-concussive symptom outcome (e.g., NSI/Rivermead). Among public data:
 - **ds003490** satisfies (a) exactly (it is the same paradigm, named in the ds003522 descriptor)
   but fails (b) — it is a Parkinson's cohort. It is nonetheless suitable for a **feature-level
   pipeline check** (confirming the extraction pipeline yields physiologically plausible features in
-  an independent sample), which we flag as optional future work, clearly distinct from an outcome
+  an independent sample), which we describe as possible future work, clearly distinct from an outcome
   replication.
 - No surveyed dataset satisfies both. A prospective or retrospective mTBI cohort with the matched
   paradigm would be required.
@@ -114,8 +113,8 @@ post-concussive symptom outcome (e.g., NSI/Rivermead). Among public data:
    estimate, with wide intervals (§3), and is now shown to be **not yet independently testable**
    with matched data.
 2. **This is a finding about the evidence base, not just this study.** Within a single
-   well-organized research program, the public datasets cannot replicate one another's
-   EEG-biomarker analyses because they deploy different paradigms and only one includes rest. The
+   well-organized research program, the public datasets do not necessarily support feature-identical EEG-biomarker replication because
+   they deploy different paradigms and only one includes rest. The
    apparent availability of "three mTBI EEG datasets" overstates the replication resource: for any
    given feature panel, typically only one is usable.
 3. **Implication for the discovery result.** A pre-registered, leakage-safe discovery analysis

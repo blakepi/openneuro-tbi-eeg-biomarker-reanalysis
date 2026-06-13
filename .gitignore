@@ -52,3 +52,14 @@ desktop.ini
 
 # Claude / agent local files
 .claude/
+
+# Local agent/audit scratch artifacts not intended for the public reviewer release
+audit/
+journal_submission/pre_*_backup_*/
+journal_submission/reconciliation_report_*/
+journal_submission/*_AI_screen_deartificialized/
+journal_submission/*_AI_screen_deartificialized.zip
+journal_submission/post_phase6_current_*_dir.txt
+journal_submission/prereg_fidelity_revision_report_*/visual_qa/
+outputs/reanalysis_audit_*/
+outputs/download_recovery/

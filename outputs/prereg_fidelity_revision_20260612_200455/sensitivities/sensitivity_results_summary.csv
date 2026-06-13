@@ -1,0 +1,14 @@
+sensitivity,status,n,adj_r2,f_pvalue,hc3_p_min,hc3_p_max,conclusion_changed,notes,r2_oof,mae
+robust_HC3_primary,already_computed,21.0,-0.1861708967769106,0.8598594557840847,0.6434153965371789,0.966885100681847,False,HC3 p-values ranged from 0.643 to 0.967; inference remained null.,,
+estimator_primary_parsimonious,already_computed,21.0,-0.1861708967769106,0.8598594557840847,,,False,Frozen Phase 6 output; retained as estimator sensitivity context.,-1.381740487087335,19.15734329295428
+estimator_transparency_full_OLS,already_computed,21.0,-0.2197367334120357,0.7537116436770481,,,False,Frozen Phase 6 output; retained as estimator sensitivity context.,-3.5761299730259646,27.505555527413406
+estimator_secondary_elasticnet,already_computed,21.0,,,,,False,Frozen Phase 6 output; retained as estimator sensitivity context.,-0.0551555286865048,13.336309523809524
+erp_metric_peak_primary,run,21.0,-0.1945836274579813,0.8753180105272723,,,False,P3b peak amplitude replaced the mean-window P3b primary metric.,-1.5963182685950321,19.376861666414534
+eyes_open_primary_combined,run,17.0,0.17441809418812393,0.22064903945781628,,,False,Eyes-open analogues replaced the eyes-closed resting predictors; EO >=40 s required.,-0.718968580648145,18.303482633385254
+mice_predictor_imputation_primary,run,25.0,,,,,False,Predictors only imputed; outcome was not imputed. Rubin-pooled coefficients and in-fold iterative-imputer OOF metrics reported.,-0.9990533247503397,17.28442649597632
+erp_low_trial_subjects_included,run,24.0,-0.13692019245216058,0.8105700962622111,,,False,Subjects with numeric ERP features but below locked trial-count reliability floor were included; sub-040 remained unavailable.,-1.259462374084348,18.57669670709193
+sub040_scode_recovery,not_run,,,,,,False,Sub-040 events contain STATUS values S8/S9/S10/R12 rather than named target/novel/standard labels; exact recovery mapping was not operationalized in the locked feature pipeline.,,
+added_covariates_days_gcs_loc_duration,run,18.0,-0.7071105815679513,0.9824229209886483,,,False,Added locked timing/severity covariates where available; LOC duration set to 0 when LOC=0 and duration structurally missing.,-15.24828841354891,44.393633968636784
+session2_nsi_timing_primary,run,20.0,-0.12566030440256903,0.7179053716862778,,,False,Supportive outcome-timing sensitivity using S2 NSI total.,-1.0232435260996664,13.73115386642437
+log1p_outcome_primary,run,21.0,-0.17784870928070706,0.8439514376074975,,,False,Primary predictors refit on log1p(Session-3 NSI).,-0.9678619524957441,1.5578559682116637
+highpass_0p1_reextract,not_run,,,,,,False,No 0.1-Hz high-pass feature branch exists in frozen outputs; running it would require full raw reprocessing and a separate locked branch. Documented as an unexecuted registered sensitivity.,,

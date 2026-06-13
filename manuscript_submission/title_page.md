@@ -23,10 +23,10 @@ Email: pierpogb@odu.edu
 Gregory Blake Pierpoint — https://orcid.org/0000-0001-8288-8549
 
 ## Word counts
-- Abstract: ~290 words
+- Abstract: 249 words
 - Main text (Introduction–Conclusions): ~3,300 words
-- Figures: 7 main + 4 supplementary
-- Tables: 5 main + 6 supplementary
+- Figures: 7 main + 5 supplementary
+- Tables: 5 main + 11 supplementary
 - References: 26
 
 ## Keywords

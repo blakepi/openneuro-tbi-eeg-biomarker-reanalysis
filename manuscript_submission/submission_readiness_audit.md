@@ -55,7 +55,7 @@ Each value is used only in its correct role; none is interchanged.
 | Remote / public status | Public repository verified by GitHub API (`private: false`) |
 | Local tag | `v1.0.0-submission` exists locally |
 | Release status | GitHub release `v1.0.0-submission` not found by releases API (404) |
-| Zenodo DOI status | Zenodo DOI not yet created. Optional before submission. |
+| Zenodo DOI status | Zenodo DOI pending until a public GitHub release is archived through Zenodo. |
 | Large raw EEG excluded | Yes - `.gitignore` excludes `data/`, `*.set/.fdt/.fif/.edf/.mat/.xlsx`, `.venv/` |
 | Credentials staged | None identified |
 

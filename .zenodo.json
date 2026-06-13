@@ -1,0 +1,43 @@
+{
+  "title": "Leakage-Safe EEG Biomarker Analysis After Mild Traumatic Brain Injury: A Preregistered OpenNeuro Reanalysis and Replication Feasibility Study",
+  "upload_type": "software",
+  "description": "Reviewer-facing analysis code, frozen analysis plan, derived outputs, and manuscript materials for a leakage-safe OpenNeuro EEG biomarker reanalysis and replication-feasibility audit.",
+  "creators": [
+    {
+      "name": "Pierpoint, Gregory Blake",
+      "orcid": "0000-0001-8288-8549",
+      "affiliation": "Macon and Joan Brock Virginia Health Sciences, Eastern Virginia Medical School at Old Dominion University"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "mild traumatic brain injury",
+    "EEG",
+    "post-concussive symptoms",
+    "reproducibility",
+    "data leakage",
+    "OpenNeuro"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds003522.v1.1.0",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005114.v1.0.0",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds003523.v1.1.0",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds003490.v1.1.0",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    }
+  ]
+}

@@ -10,9 +10,9 @@ Rationale: The journal explicitly welcomes original research, methodological/tec
 ## Actionable requirements
 | Requirement | Current package status |
 |---|---|
-| Article type | Prepared as full-length original article / methodological report |
+| Article type | Prepared as Research Paper |
 | Word limit | No specific limit for original articles; concise writing encouraged |
-| Abstract | Structured abstract prepared; 223 words, below 250-word limit |
+| Abstract | Structured abstract prepared; 237 words, below 250-word limit |
 | Keywords | 7 keywords supplied |
 | Highlights | Separate highlights file supplied; 5 bullets, each <=85 characters |
 | File format | Editable Markdown source supplied; convert to .docx for portal upload if required |

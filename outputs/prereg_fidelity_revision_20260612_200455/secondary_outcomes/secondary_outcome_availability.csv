@@ -1,0 +1,4 @@
+hypothesis,outcome,source_columns,computed_column,n_outcome_available_in_frozen_cohort,n_primary_predictor_complete,n_full_panel_complete,same_frozen_folds_available,same_primary_predictor_set_used,full_elasticnet_panel_prespecified,missingness_reason
+H2,S3 Rivermead total,master_subject_session_table.csv:S3 RivermeadTotal,S3_Rivermead_Total,22,19,19,True,True,True,Outcome or locked ERP/rest predictor complete-case availability
+H3,S1-to-S3 NSI change,S3 NSItotal - S1 NSItotal,S1_to_S3_NSI_Change,25,21,21,True,True,True,Outcome or locked ERP/rest predictor complete-case availability
+H4,S1-to-S3 Rivermead change,S3 RivermeadTotal - S1 RivermeadTotal,S1_to_S3_Rivermead_Change,22,19,19,True,True,True,Outcome or locked ERP/rest predictor complete-case availability

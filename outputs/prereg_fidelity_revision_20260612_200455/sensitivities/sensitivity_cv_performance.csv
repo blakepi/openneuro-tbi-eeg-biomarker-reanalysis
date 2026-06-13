@@ -1,0 +1,8 @@
+n,r2_oof,mae,rmse,sensitivity,outcome,model,predictors
+21,-1.5963182685950321,19.376861666414534,24.949796113464792,erp_metric_peak_primary,S3_NSI_Total,erp_metric_peak_primary,5
+17,-0.718968580648145,18.303482633385254,21.617345776788266,eyes_open_primary_combined,S3_NSI_Total,eyes_open_primary_combined,5
+25,-0.9990533247503397,17.28442649597632,21.688440285377222,mice_iterative_imputer_oof,S3_NSI_Total,mice_iterative_imputer_oof,5
+24,-1.259462374084348,18.57669670709193,23.23738804828469,erp_low_trial_subjects_included,S3_NSI_Total,erp_low_trial_subjects_included,5
+18,-15.24828841354891,44.393633968636784,63.400282869524794,added_covariates_days_gcs_loc_duration,S3_NSI_Total,added_covariates_days_gcs_loc_duration,9
+20,-1.0232435260996664,13.73115386642437,18.099264054397267,session2_nsi_timing_primary,S2_NSI_Total,session2_nsi_timing_primary,5
+21,-0.9678619524957441,1.5578559682116637,1.7751272911837175,log1p_outcome_primary,S3_NSI_Total_log1p_sensitivity,log1p_outcome_primary,5
