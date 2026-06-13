@@ -17,7 +17,7 @@ This final pass performed text-integrity and release-package cleanup only. No an
 - Supplementary tables render in sequential order from S1 through S11.
 - Production-only comments and blank supplementary-figure placeholders were excluded from the final files.
 - Cover letter contains the required publication, funding, and conflict-of-interest declaration.
-- Repository release metadata were prepared for tag `v1.0.0-cnp-submission`.
+- Repository release metadata cite tag `v1.0.0-cnp-submission` and Zenodo DOI `10.5281/zenodo.20682573`.
 
 ## Rendered QA
 
@@ -49,8 +49,8 @@ Additional checks confirmed:
 
 ## Release Notes
 
-The final GitHub release should use tag:
+The archived GitHub release uses tag:
 
 `v1.0.0-cnp-submission`
 
-Zenodo archiving should be performed from the public GitHub release after the tag is pushed. The DOI remains pending until Zenodo archives that release.
+Zenodo DOI: https://doi.org/10.5281/zenodo.20682573 (DOI: `10.5281/zenodo.20682573`).

@@ -31,13 +31,13 @@ Feature-identical clinical replication was not estimable in the surveyed related
 
 ## Release/package state
 
-The reviewer-facing submission package is prepared for GitHub release `v1.0.0-cnp-submission`. The exact package commit is the commit targeted by that release tag and is reported in the final release notes/report after tagging.
+The reviewer-facing submission package was released as GitHub tag `v1.0.0-cnp-submission` and archived on Zenodo at https://doi.org/10.5281/zenodo.20682573 (DOI: `10.5281/zenodo.20682573`). The archived release tag resolves to commit `ac84ad461197c20a7af7caeac7b293d6f1133d98`.
 
 The frozen analyses and derived outputs were not changed by the final reviewer-facing manuscript/repository polish pass.
 
 ## Citation and DOI
 
-A Zenodo DOI has not yet been minted. After the GitHub release is archived through Zenodo, add the DOI here, in `CITATION.cff`, and in the manuscript Code availability section if the DOI is minted before journal upload.
+Please cite the archived Zenodo record for the reviewer-facing release: https://doi.org/10.5281/zenodo.20682573 (DOI: `10.5281/zenodo.20682573`). The GitHub source repository remains available at https://github.com/blakepi/openneuro-tbi-eeg-biomarker-reanalysis.
 
 ## Repository structure
 

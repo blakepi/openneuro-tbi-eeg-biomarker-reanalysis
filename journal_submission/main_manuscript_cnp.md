@@ -186,7 +186,7 @@ the locked definitions and conflate brain states.
 ## 3. Results
 
 ### 3.1 Cohort construction and feature feasibility
-From the acute-mTBI arm of ds003522, 25 participants had a usable Session-1 EEG and a Session-3 NSI
+From the sub-acute/early post-injury mTBI arm of ds003522, 25 participants had a usable Session-1 EEG and a Session-3 NSI
 total (Figure 1; Table 2). All 25 recordings passed read QC with uniform acquisition (Section 2.6).
 Locked usability criteria yielded 25 participants for resting-only models and 21 for ERP and combined
 models (four ERP exclusions: one lacking curated tone labels, three with fewer than 15 retained
@@ -335,12 +335,7 @@ crosswalk, feature matrices, model outputs) are provided in the Supplement and t
 ## 8. Code availability
 Analysis code and derived manuscript materials (download, identity resolution, preprocessing,
 feature extraction, frozen cross-validation folds, models, figures, and manuscript-supporting
-materials) are available in the public GitHub repository: https://github.com/blakepi/openneuro-tbi-eeg-biomarker-reanalysis. The reviewer-facing
-submission package is prepared for GitHub release v1.0.0-cnp-submission; the exact archived commit is the
-commit targeted by that release tag. Raw EEG data are publicly available from OpenNeuro and
-are not redistributed in the code repository. The repository is released under the MIT
-License; the locked analysis plan and machine-readable bibliography files are included. A
-Zenodo DOI will be added if minted before final journal upload.
+materials) are available in the public GitHub repository: https://github.com/blakepi/openneuro-tbi-eeg-biomarker-reanalysis. The reviewer-facing GitHub release `v1.0.0-cnp-submission` is archived on Zenodo at https://doi.org/10.5281/zenodo.20682573 (DOI: 10.5281/zenodo.20682573); the release tag resolves to commit `ac84ad461197c20a7af7caeac7b293d6f1133d98`. Raw EEG data are publicly available from OpenNeuro and are not redistributed in the code repository. The repository is released under the MIT License; the locked analysis plan and machine-readable bibliography files are included.
 A post-analysis reproducibility audit regenerated the frozen analysis outputs into
 `outputs/reanalysis_audit_20260612_115010/` without overwriting the original outputs; all 25
 analytic ds003522 Session-1 `.set/.fdt` pairs were verified as data-readable with MNE, all 44
@@ -516,7 +511,7 @@ outputs/analysis/replication_feature_availability.csv, OpenNeuro dataset records
 
 | Stage | n | Notes |
 |---|---:|---|
-| ds003522 participants with EEG | 96 | acute mTBI + control + chronic TBI |
+| ds003522 participants with EEG | 96 | sub-acute/early post-injury mTBI + control + chronic TBI |
 | Sub-acute/early post-injury mTBI arm (Group 0) | 44 | chronic TBI (25) and controls (27) excluded from outcome cohort |
 | … with usable Session-1 EEG (read QC) | 44 | 25/25 of the eligible-with-outcome subset readable; uniform 500 Hz / 65 ch |
 | … with non-missing Session-3 NSI total | **25** | **eligible discovery cohort** |

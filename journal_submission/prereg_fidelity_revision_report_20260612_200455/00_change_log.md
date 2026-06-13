@@ -42,5 +42,5 @@ Timestamp: 20260612_200455
 ## Reviewer-facing repository finalization
 - Reviewer-facing repository finalization updated README/package-state wording, removed process-history language, clarified the internal version-controlled analysis lock, defined S1-to-S3 change as Session 3 minus Session 1, renumbered references in first-citation order, and prepared release metadata for `v1.0.0-cnp-submission`. No scientific analyses were rerun.
 
-## Reviewer-facing repository finalization
-- Reviewer-facing repository finalization updated README/package-state wording, removed process-history language, clarified the internal version-controlled analysis lock, defined S1-to-S3 change as Session 3 minus Session 1, renumbered references in first-citation order, and prepared release metadata for `v1.0.0-cnp-submission`. No scientific analyses were rerun.
+## Zenodo DOI finalization
+- Added Zenodo DOI `10.5281/zenodo.20682573` (https://doi.org/10.5281/zenodo.20682573) to citation, release, repository, and submission materials. No scientific analyses were rerun and no locked results were changed.

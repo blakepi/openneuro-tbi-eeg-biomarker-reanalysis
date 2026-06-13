@@ -95,7 +95,7 @@ them would require fabricated or redefined inputs and is therefore not reported.
 ## 4. The appropriate replication target (for future work)
 
 A valid replication requires a dataset with **both** (a) the three-stimulus auditory oddball **and**
-embedded eyes-closed/eyes-open rest, **and** (b) an acute-mTBI sample with a longitudinal
+embedded eyes-closed/eyes-open rest, **and** (b) a sub-acute/early post-injury mTBI sample with a longitudinal
 post-concussive symptom outcome (e.g., NSI/Rivermead). Among public data:
 - **ds003490** satisfies (a) exactly (it is the same paradigm, named in the ds003522 descriptor)
   but fails (b) — it is a Parkinson's cohort. It is nonetheless suitable for a **feature-level

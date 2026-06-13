@@ -31,4 +31,4 @@ Audit date: 2026-06-12
 
 ## Final readiness
 
-The Clinical Neurophysiology Practice submission package is ready for journal portal upload. GitHub release/tag `v1.0.0-submission` is not present remotely; the manuscript cites the verified public repository URL and current commit.
+The Clinical Neurophysiology Practice submission package is ready for journal portal upload. The reviewer-facing release tag is `v1.0.0-cnp-submission`, archived on Zenodo at https://doi.org/10.5281/zenodo.20682573.

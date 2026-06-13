@@ -10,7 +10,7 @@ The manuscript also reports a planned replication-feasibility audit across relat
 
 This submission should be of interest to readers concerned with clinical neurophysiology, traumatic brain injury prognosis, reproducible biomarker research, and leakage-safe machine learning. The contribution is not a positive biomarker claim, but a transparent example of how locked analyses, identity resolution, and explicit replication-feasibility assessment can prevent overinterpretation in small public EEG datasets.
 
-The data are publicly available through OpenNeuro. Analysis code and derived manuscript materials are available at https://github.com/blakepi/openneuro-tbi-eeg-biomarker-reanalysis. Raw EEG data are not redistributed. No new human participant data were collected for this secondary analysis, which used publicly available, deidentified data and was considered exempt from institutional review board review.
+The data are publicly available through OpenNeuro. Analysis code and derived manuscript materials are available at https://github.com/blakepi/openneuro-tbi-eeg-biomarker-reanalysis and archived on Zenodo (DOI: 10.5281/zenodo.20682573). Raw EEG data are not redistributed. This secondary analysis used publicly available, deidentified data and was considered exempt from institutional review board review.
 
 I confirm that this manuscript is not under consideration elsewhere and has not been published previously. No funding was received for this work, and I declare no conflicts of interest.
 
@@ -22,4 +22,3 @@ Macon and Joan Brock Virginia Health Sciences, Eastern Virginia Medical School a
 
 Email: pierpogb@odu.edu
 
-ORCID: https://orcid.org/0000-0001-8288-8549

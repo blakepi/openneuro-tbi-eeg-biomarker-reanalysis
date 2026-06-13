@@ -37,7 +37,7 @@ Ethics: This study used publicly available, deidentified data from OpenNeuro and
 Generative AI and AI-assisted technologies: AI-assisted coding and writing tools were used to support code generation, manuscript organization, and editing. The author reviewed, verified, and takes full responsibility for all analyses, interpretations, and manuscript content.
 
 ## Word and item counts
-Abstract: 249 words
+Abstract: 231 words
 
 Keywords: 7
 

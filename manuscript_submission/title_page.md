@@ -23,7 +23,7 @@ Email: pierpogb@odu.edu
 Gregory Blake Pierpoint — https://orcid.org/0000-0001-8288-8549
 
 ## Word counts
-- Abstract: 249 words
+- Abstract: 233 words
 - Main text (Introduction–Conclusions): ~3,300 words
 - Figures: 7 main + 5 supplementary
 - Tables: 5 main + 11 supplementary
@@ -49,6 +49,4 @@ The author declares no conflicts of interest.
 Single-author manuscript.
 
 ## Data and code availability
-Public OpenNeuro datasets (ds003522, ds005114, ds003523, ds003490); analysis code at
-https://github.com/blakepi/openneuro-tbi-eeg-biomarker-reanalysis (MIT License). Raw EEG is
-not redistributed.
+Public OpenNeuro datasets (ds003522, ds005114, ds003523, ds003490); analysis code at https://github.com/blakepi/openneuro-tbi-eeg-biomarker-reanalysis (MIT License) and archived on Zenodo at https://doi.org/10.5281/zenodo.20682573 (DOI: 10.5281/zenodo.20682573). Raw EEG is not redistributed.

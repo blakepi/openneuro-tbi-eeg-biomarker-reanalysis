@@ -1,16 +1,16 @@
 # Phase 4 Results — Pre-registered confirmatory analysis
-### Early EEG biomarkers and persistent post-concussive symptoms (ds003522, acute mTBI)
+### Early EEG biomarkers and persistent post-concussive symptoms (ds003522, sub-acute/early post-injury mTBI)
 
 **Date:** 2026-06-11
 **Adherence statement:** Every model below was executed exactly as fixed in
-`reports/final_locked_analysis_plan.md`. No predictor was added or removed; no exploratory model
-was promoted to confirmatory; the frozen folds were used unchanged (subjects failing the locked
+`reports/final_locked_analysis_plan.md`. No predictor was added or removed; exploratory models
+remained exploratory; the frozen folds were used unchanged (subjects failing the locked
 §3 usability gates were dropped from their assigned fold only). The outcome scale was set by the
 pre-specified rule (outcome skewness = 0.85 < 1.0 → **raw NSI**, no transform). Producing scripts:
 `10_build_analysis_table.py`, `11_fit_models.py`, `12_figures.py`. Result tables in
 `outputs/analysis/`; figures in `outputs/figures/`.
 
-> **Headline (stated up front, in estimation terms):** In this small acute-mTBI discovery cohort,
+> **Headline (stated up front, in estimation terms):** In this small sub-acute/early post-injury mTBI discovery cohort,
 > the pre-registered Session-1 EEG panel showed **no reliable association with, and no
 > out-of-sample predictive value for, Session-3 NSI total beyond age and sex.** All standardized
 > effect sizes were small with 95% confidence intervals spanning zero; penalized and
@@ -23,7 +23,7 @@ pre-specified rule (outcome skewness = 0.85 < 1.0 → **raw NSI**, no transform)
 
 | Model | N | Notes |
 |---|---:|---|
-| Primary (parsimonious) | **21** | acute mTBI with EC rest + reliable P3b; excludes sub-040 (no tone labels) + 3 low-trial ERP subjects |
+| Primary (parsimonious) | **21** | sub-acute/early post-injury mTBI with EC rest + reliable P3b; excludes sub-040 (no tone labels) + 3 low-trial ERP subjects |
 | Secondary Elastic Net / Transparency OLS (full panel) | 21 | same gating |
 | Supportive resting-only | 25 | EC rest reliable for all 25 |
 | Supportive ERP-only | 21 | ERP reliability gate |
@@ -158,7 +158,7 @@ change a result in which every estimator converges on the mean.
 ## 7. Interpretation
 
 1. **The pre-registered EEG panel did not predict persistent post-concussive symptom burden** at
-   ~4 months in this acute-mTBI sample. Standardized effects are small (|β| ≤ 0.24) with intervals
+   ~4 months in this sub-acute/early post-injury mTBI sample. Standardized effects are small (|β| ≤ 0.24) with intervals
    spanning zero; out-of-sample R² is negative for every model; the penalized model retains no
    feature.
 2. **This is an inconclusive/null result, not proof of no effect.** With n ≈ 21 and confidence

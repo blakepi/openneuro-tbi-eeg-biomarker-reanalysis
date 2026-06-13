@@ -22,7 +22,7 @@ differs, **this document governs.**
 
 ## 1. Final hypotheses
 
-**Primary (H1).** Among adults with acute mTBI, a compact, biologically motivated panel of
+**Primary (H1).** Among adults with sub-acute/early post-injury mTBI, a compact, biologically motivated panel of
 Session-1 EEG features is associated with later Session-3 NSI symptom burden
 (Session-3 NSI total), over and above age and sex.
 
@@ -56,7 +56,7 @@ non-linearities beyond the linear panel.
 
 - **Unit / split key:** `subject_uid` = full BIDS URSI (canonical person key; `Original_ID` is not
   used because value 3013 collides across two URSIs).
-- **Primary analytic cohort:** acute-mTBI participants (ds003522 `Group == 0`) with a usable
+- **Primary analytic cohort:** sub-acute/early post-injury mTBI participants (ds003522 `Group == 0`) with a usable
   Session-1 EEG recording and a non-missing Session-3 NSI total — **n = 25**, frozen as cohort
   `A_ds003522` in `outputs/splits/frozen_cv_folds.csv`.
 - **Effective N by modality:** resting (eyes-closed) **25**; ERP **21**; combined panel **20**.
@@ -65,7 +65,7 @@ non-linearities beyond the linear panel.
 
 ## 3. Final inclusion / exclusion criteria
 
-**Include:** acute mTBI; Session-1 EEG passing read QC; Session-3 NSI total present; unique
+**Include:** sub-acute/early post-injury mTBI; Session-1 EEG passing read QC; Session-3 NSI total present; unique
 `subject_uid`.
 
 **Exclude (accounted for in the CONSORT flow, Figure 1):**

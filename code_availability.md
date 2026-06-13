@@ -2,7 +2,7 @@
 
 Analysis code and derived manuscript materials (download, identity resolution, preprocessing, feature extraction, frozen cross-validation folds, models, figures, and manuscript-supporting materials) are available in the public GitHub repository: https://github.com/blakepi/openneuro-tbi-eeg-biomarker-reanalysis.
 
-The reviewer-facing submission package is prepared for GitHub release `v1.0.0-cnp-submission`; the exact archived commit is the commit targeted by that release tag. Raw EEG data are publicly available from OpenNeuro and are not redistributed in the code repository. The repository is released under the MIT License; the locked analysis plan and machine-readable bibliography files are included. A Zenodo DOI will be added if minted before final journal upload.
+The reviewer-facing GitHub release `v1.0.0-cnp-submission` is archived on Zenodo at https://doi.org/10.5281/zenodo.20682573 (DOI: 10.5281/zenodo.20682573); the release tag resolves to commit `ac84ad461197c20a7af7caeac7b293d6f1133d98`. Raw EEG data are publicly available from OpenNeuro and are not redistributed in the code repository. The repository is released under the MIT License; the locked analysis plan and machine-readable bibliography files are included.
 
 A post-analysis reproducibility audit regenerated the frozen analysis outputs into `outputs/reanalysis_audit_20260612_115010/` without overwriting the original outputs; all 25 analytic ds003522 Session-1 `.set/.fdt` pairs were verified as data-readable with MNE, all 44 prespecified numeric checks matched the frozen outputs, and the only non-exact artifact was a non-scientific `--dry-run` download-manifest difference.
 

@@ -50,12 +50,12 @@ Each value is used only in its correct role; none is interchanged.
 |---|---|
 | Repository (verified public remote) | https://github.com/blakepi/openneuro-tbi-eeg-biomarker-reanalysis |
 | Current branch | `main` |
-| Package commit | `a995ac0` (`a995ac0edddf83fb2a381e253dc6e17f7053f230`) - full analysis + manuscript package |
+| Archived release commit | `ac84ad461197c20a7af7caeac7b293d6f1133d98` (`ac84ad461197c20a7af7caeac7b293d6f1133d98`) - CNP submission package |
 | Verified public head before journal formatting | `953a06a` (`953a06aae8803c447ec29ac37bedbf8fbfb54856`) |
 | Remote / public status | Public repository verified by GitHub API (`private: false`) |
-| Local tag | `v1.0.0-submission` exists locally |
-| Release status | GitHub release `v1.0.0-submission` not found by releases API (404) |
-| Zenodo DOI status | Zenodo DOI pending until a public GitHub release is archived through Zenodo. |
+| Release tag | `v1.0.0-cnp-submission` |
+| Release status | GitHub tag pushed; DOI minted on Zenodo |
+| Zenodo DOI status | `10.5281/zenodo.20682573` (https://doi.org/10.5281/zenodo.20682573) |
 | Large raw EEG excluded | Yes - `.gitignore` excludes `data/`, `*.set/.fdt/.fif/.edf/.mat/.xlsx`, `.venv/` |
 | Credentials staged | None identified |
 
@@ -92,7 +92,7 @@ sizes are unchanged.
 ## 7. Remaining issues
 
 None internal to the scientific analysis package. Before portal upload, use the
-`journal_submission/` audit for journal-specific formatting requirements and release status.
+`journal_submission/` audit for journal-specific formatting requirements.
 
 ## Number-to-source map (headline values)
 

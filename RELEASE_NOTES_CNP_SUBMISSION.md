@@ -29,4 +29,6 @@ Raw EEG data are publicly available from OpenNeuro and are not redistributed in 
 
 ## DOI
 
-Zenodo DOI pending. After Blake enables the repository in Zenodo and archives this GitHub release, the DOI should be added to README, CITATION.cff, and the manuscript Code availability section if minted before journal upload.
+Archived Zenodo DOI: https://doi.org/10.5281/zenodo.20682573 (DOI: `10.5281/zenodo.20682573`).
+
+GitHub tag `v1.0.0-cnp-submission` resolves to commit `ac84ad461197c20a7af7caeac7b293d6f1133d98`.

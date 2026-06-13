@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this analysis package, please cite the GitHub release and, once available, the Zenodo DOI."
+message: "If you use this analysis package, please cite the Zenodo DOI and GitHub release."
 title: "Leakage-Safe EEG Biomarker Analysis After Mild Traumatic Brain Injury: A Preregistered OpenNeuro Reanalysis and Replication Feasibility Study"
 type: software
 authors:
@@ -10,8 +10,10 @@ authors:
     affiliation: "Macon and Joan Brock Virginia Health Sciences, Eastern Virginia Medical School at Old Dominion University"
 version: "v1.0.0-cnp-submission"
 date-released: "2026-06-13"
+doi: "10.5281/zenodo.20682573"
 license: "MIT"
 repository-code: "https://github.com/blakepi/openneuro-tbi-eeg-biomarker-reanalysis"
+url: "https://doi.org/10.5281/zenodo.20682573"
 keywords:
   - mild traumatic brain injury
   - EEG

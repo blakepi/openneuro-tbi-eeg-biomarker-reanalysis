@@ -2,7 +2,7 @@
 
 | Stage | n | Notes |
 |---|---:|---|
-| ds003522 participants with EEG | 96 | acute mTBI + control + chronic TBI |
+| ds003522 participants with EEG | 96 | sub-acute/early post-injury mTBI + control + chronic TBI |
 | Sub-acute/early post-injury mTBI arm (Group 0) | 44 | chronic TBI (25) and controls (27) excluded from outcome cohort |
 | … with usable Session-1 EEG (read QC) | 44 | 25/25 of the eligible-with-outcome subset readable; uniform 500 Hz / 65 ch |
 | … with non-missing Session-3 NSI total | **25** | **eligible discovery cohort** |

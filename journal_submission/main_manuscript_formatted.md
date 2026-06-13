@@ -62,7 +62,7 @@ in such data, and whether related public datasets can actually support feature-i
 replication.
 
 We therefore conducted a preregistered, leakage-safe longitudinal reanalysis of OpenNeuro ds003522,
-in which acute-mTBI participants underwent combined resting and auditory-oddball EEG within days of
+in which sub-acute/early post-injury mTBI participants underwent combined resting and auditory-oddball EEG within days of
 injury and were followed with standardized symptom inventories. We (i) prespecified a compact
 biologically motivated feature panel integrating resting-state and ERP measures; (ii) froze
 subject-level cross-validation folds and locked the statistical hierarchy before any feature–outcome
@@ -83,10 +83,10 @@ We used four OpenNeuro datasets from a single longitudinal research program (Uni
 Mexico; J.F. Cavanagh and colleagues; data collected 2016–2018):
 
 - **ds003522 (discovery)** [15]. Three-stimulus auditory oddball with **embedded eyes-closed/eyes-open
-  resting blocks**; acute mTBI, controls, and a chronic-TBI arm; three sessions; longitudinal
-  clinical outcomes for the acute-mTBI/control cohort. DOI 10.18112/openneuro.ds003522.v1.1.0.
+  resting blocks**; sub-acute/early post-injury mTBI, controls, and a chronic-TBI arm; three sessions; longitudinal
+  clinical outcomes for the sub-acute/early post-injury mTBI/control cohort. DOI 10.18112/openneuro.ds003522.v1.1.0.
 - **ds005114 (designated replication)** [16]. DPX (dot-pattern expectancy) cognitive-control task;
-  acute mTBI/control; assessed for replication feasibility.
+  sub-acute/early post-injury mTBI/control; assessed for replication feasibility.
 - **ds003523 (designated replication)** [17]. Visual working-memory task; acute TBI/control; assessed
   for feature availability.
 - **ds003490 (paradigm reference)** [18]. Same three-stimulus oddball + rest paradigm but a
@@ -103,10 +103,7 @@ because one value (3013) maps to two distinct URSIs (M87138342 vs M87138432, an 
 transposition; Supplement). All merging and cross-validation splitting used subject_uid. The
 **chronic-TBI arm was excluded** from the Session-3 NSI prediction cohort because it has no longitudinal
 clinical outcome; clinical-only subjects without EEG were documented rather than silently dropped
-(Supplement). The discovery cohort comprised acute-mTBI participants with a usable Session-1 EEG and
-a non-missing Session-3 outcome (**n = 25**). Effective analytic samples were 25 (resting-only
-models), 21 (ERP and combined models; see §2.7), and 20 (a prespecified sensitivity excluding one
-participant with limited eyes-open data).
+(Supplement). The source README describes the longitudinal group as sub-acute mTBI at Session 1, whereas the dataset title uses acute TBI. In local clinical metadata, the 44 ds003522 Group-0 participants with Session-1 EEG spanned 1-16 days since injury (median 11; the README describes 3-14 days). We therefore use sub-acute/early post-injury mTBI for the discovery cohort. The cohort comprised Group-0 participants with a usable Session-1 EEG and a non-missing Session-3 outcome (**n = 25**). Effective analytic samples were 25 (resting-only models), 21 (ERP and primary combined models; see §2.7), and 20 in the prespecified eyes-open-low sensitivity excluding sub-068. The locked plan's combined-panel N = 20 is retained as a transparent execution-note discrepancy: sub-068 had valid eyes-closed rest and reliable ERP features and was therefore retained in the primary n = 21 analysis.
 
 ### 2.4 Clinical outcomes
 The **primary outcome** was the **Session-3 Neurobehavioral Symptom Inventory (NSI) total** [19],
@@ -206,7 +203,7 @@ the locked definitions and conflate brain states.
 ## 3. Results
 
 ### 3.1 Cohort construction and feature feasibility
-From the acute-mTBI arm of ds003522, 25 participants had a usable Session-1 EEG and a Session-3 NSI
+From the sub-acute/early post-injury mTBI arm of ds003522, 25 participants had a usable Session-1 EEG and a Session-3 NSI
 total (Figure 1; Table 2). All 25 recordings passed read QC with uniform acquisition (Section 2.6).
 Locked usability criteria yielded 25 participants for resting-only models and 21 for ERP and combined
 models (four ERP exclusions: one lacking curated tone labels, three with fewer than 15 retained
@@ -367,12 +364,7 @@ crosswalk, feature matrices, model outputs) are provided in the Supplement and t
 ## 8. Code availability
 Analysis code and derived manuscript materials (download, identity resolution, preprocessing,
 feature extraction, frozen cross-validation folds, models, figures, and manuscript-supporting
-materials) are available in the public GitHub repository: https://github.com/blakepi/openneuro-tbi-eeg-biomarker-reanalysis. The reviewer-facing
-submission package is prepared for GitHub release v1.0.0-cnp-submission; the exact archived commit is the
-commit targeted by that release tag. Raw EEG data are publicly available from OpenNeuro and
-are not redistributed in the code repository. The repository is released under the MIT
-License; the locked analysis plan and machine-readable bibliography files are included. A
-Zenodo DOI will be added if minted before final journal upload.
+materials) are available in the public GitHub repository: https://github.com/blakepi/openneuro-tbi-eeg-biomarker-reanalysis. The reviewer-facing GitHub release `v1.0.0-cnp-submission` is archived on Zenodo at https://doi.org/10.5281/zenodo.20682573 (DOI: 10.5281/zenodo.20682573); the release tag resolves to commit `ac84ad461197c20a7af7caeac7b293d6f1133d98`. Raw EEG data are publicly available from OpenNeuro and are not redistributed in the code repository. The repository is released under the MIT License; the locked analysis plan and machine-readable bibliography files are included.
 A post-analysis reproducibility audit regenerated the frozen analysis outputs into
 `outputs/reanalysis_audit_20260612_115010/` without overwriting the original outputs; all 25
 analytic ds003522 Session-1 `.set/.fdt` pairs were verified as data-readable with MNE, all 44
@@ -531,7 +523,7 @@ contribution from the full-panel (descriptive) model.
 
 | Dataset | Role | Paradigm | Embedded rest | Groups | Sessions | EEG (n with _eeg.set, S1) | Outcome (NSI/Rivermead) |
 |---|---|---|:--:|---|:--:|---:|:--:|
-| **ds003522** | **Discovery** | Three-stimulus auditory oddball + rest | Yes (EC/EO) | acute mTBI / control / chronic TBI | 3 | 96 | Yes |
+| **ds003522** | **Discovery** | Three-stimulus auditory oddball + rest | Yes (EC/EO) | sub-acute/early post-injury mTBI / control / chronic TBI | 3 | 96 | Yes |
 | ds005114 | Designated replication | DPX cognitive control | No | acute mTBI / control | 3 | 91 | Yes |
 | ds003523 | Designated replication | Visual working memory | No | acute TBI / control | 3 | 91 | Yes (via shared workbook) |
 | ds003490 | Paradigm reference | Three-stimulus auditory oddball + rest | Yes (EC/EO) | **Parkinson's disease** (25 PD / 25 control) | 2 | not analysed (paradigm reference) | **No (no post-concussive outcome)** |
@@ -548,8 +540,8 @@ outputs/analysis/replication_feature_availability.csv, OpenNeuro dataset records
 
 | Stage | n | Notes |
 |---|---:|---|
-| ds003522 participants with EEG | 96 | acute mTBI + control + chronic TBI |
-| Acute mTBI arm (Group 0) | 44 | chronic TBI (25) and controls (27) excluded from outcome cohort |
+| ds003522 participants with EEG | 96 | sub-acute/early post-injury mTBI + control + chronic TBI |
+| Sub-acute/early post-injury mTBI arm (Group 0) | 44 | chronic TBI (25) and controls (27) excluded from outcome cohort |
 | … with usable Session-1 EEG (read QC) | 44 | 25/25 of the eligible-with-outcome subset readable; uniform 500 Hz / 65 ch |
 | … with non-missing Session-3 NSI total | **25** | **eligible discovery cohort** |
 | Resting (eyes-closed) usable (≥ 40 s clean) | **25** | all eligible subjects |
